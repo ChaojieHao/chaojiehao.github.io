@@ -8,92 +8,106 @@
   "en": {
     "updates": [
       {
-        "date": "2026-04-20",
+        "date": "2026-10-31",
         "type": "Commit",
-        "title": "chore: align node runtime to 24",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/d62558af994c2df311c4a84f20d406fd487432cc"
+        "title": "Add GitHub Pages deployment workflow",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/254ed2df96d4dbf5f7329140ddfa373283993700"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "Commit",
-        "title": "docs: 优化文档",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/269de057f25d94414859f1d39fcbad023f904991"
+        "title": "Add GitHub Actions build test",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a2b117329cdf3507b20674b5e9f89658c25835f"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "Commit",
-        "title": "docs: add vercel link",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/e8d9b726e91ce71d0123de919164ab1f1e0cc3a7"
+        "title": "Replace al-folio with Next.js academic homepage",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/68c39cda20da111cebdd9407bb615fff1d05a194"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "Commit",
-        "title": "docs: 优化使用步骤",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/d41a14a15ec14dbb593b61a597e7b7bf01e9b178"
+        "title": "Update _config.yml",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/9082a57fdc95e867d9258245cec1a50c32bd1788"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "Commit",
-        "title": "docs: 优化文档说明",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/59e7c32425f52a0acb204385bb2d22a232f724a7"
+        "title": "Delete index.html",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/5e8fa0cfd00fa74024a3fe943b4a639d66003de1"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "Commit",
-        "title": "feat: academic homepage template",
-        "summary": "Authored by ronchy",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/1585672ba9b38a51eef7482a5dd2a0edb8189cd7"
+        "title": "Update site settings in _config.yml",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d51021294491f200b3fd306eee9fc24d196f02cc"
+      },
+      {
+        "date": "2026-10-31",
+        "type": "Commit",
+        "title": "Import al-folio academic website template",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2610c17eb9fe14da4179c4a67548d18232152633"
       }
     ]
   },
   "zh": {
     "updates": [
       {
-        "date": "2026-04-20",
+        "date": "2026-10-31",
         "type": "提交",
-        "title": "chore: align node runtime to 24",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/d62558af994c2df311c4a84f20d406fd487432cc"
+        "title": "Add GitHub Pages deployment workflow",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/254ed2df96d4dbf5f7329140ddfa373283993700"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "提交",
-        "title": "docs: 优化文档",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/269de057f25d94414859f1d39fcbad023f904991"
+        "title": "Add GitHub Actions build test",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a2b117329cdf3507b20674b5e9f89658c25835f"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "提交",
-        "title": "docs: add vercel link",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/e8d9b726e91ce71d0123de919164ab1f1e0cc3a7"
+        "title": "Replace al-folio with Next.js academic homepage",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/68c39cda20da111cebdd9407bb615fff1d05a194"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "提交",
-        "title": "docs: 优化使用步骤",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/d41a14a15ec14dbb593b61a597e7b7bf01e9b178"
+        "title": "Update _config.yml",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/9082a57fdc95e867d9258245cec1a50c32bd1788"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "提交",
-        "title": "docs: 优化文档说明",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/59e7c32425f52a0acb204385bb2d22a232f724a7"
+        "title": "Delete index.html",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/5e8fa0cfd00fa74024a3fe943b4a639d66003de1"
       },
       {
-        "date": "2026-04-10",
+        "date": "2026-10-31",
         "type": "提交",
-        "title": "feat: academic homepage template",
-        "summary": "由 ronchy 提交",
-        "link": "https://github.com/Ronchy2000/Academic-Homepage-Template/commit/1585672ba9b38a51eef7482a5dd2a0edb8189cd7"
+        "title": "Update site settings in _config.yml",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d51021294491f200b3fd306eee9fc24d196f02cc"
+      },
+      {
+        "date": "2026-10-31",
+        "type": "提交",
+        "title": "Import al-folio academic website template",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2610c17eb9fe14da4179c4a67548d18232152633"
       }
     ]
   }
