@@ -43,7 +43,7 @@ export function HomeClient({
       },
       {
         title: "银河系结构与动力学",
-        description: "研究银河系旋臂、银盘结构以及恒星族群的三维分布。",
+        description: "研究银河系旋臂、银盘结构以及恒星族群的三维分布和运动。",
         image: "/images/research/Milky%20Way%20Structure.jpg"
       },
       {
@@ -64,7 +64,7 @@ export function HomeClient({
         image: "/images/research/Open%20Clusters.jpg"
       },
       {
-        title: "Milky Way Structure",
+        title: "Milky Way Structure and Dynamics",
         description: "Galactic spiral arms, disk structure, and the three-dimensional distribution of stellar populations.",
         image: "/images/research/Milky%20Way%20Structure.jpg"
       },
