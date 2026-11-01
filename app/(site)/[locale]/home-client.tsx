@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 import { ProjectCard } from "@/components/project-card";
 import { PublicationItem } from "@/components/publication-item";
@@ -34,42 +35,50 @@ export function HomeClient({
   void updates;
   const base = `/${locale}`;
   const researchInterests = locale === "zh"
-    ? [
-        {
-          title: "开放星团",
-          description: "研究开放星团的形成、演化与动力学过程，以及其恒星族群和暗残骸。"
-        },
-        {
-          title: "银河系结构",
-          description: "研究银河系旋臂、银盘结构以及恒星族群的三维分布。"
-        },
-        {
-          title: "恒星动力学",
-          description: "研究星团的内部运动学、整体旋转、膨胀及其动力学演化。"
-        },
-        {
-          title: "银河系考古学",
-          description: "利用 Gaia 和大规模恒星巡天数据，探索银河系的形成与演化。"
-        }
-      ]
-    : [
-        {
-          title: "Open Clusters",
-          description: "Formation, evolution, and dynamics of open clusters, including their stellar populations and dark remnants."
-        },
-        {
-          title: "Milky Way Structure",
-          description: "Galactic spiral arms, disk structure, and the three-dimensional distribution of stellar populations."
-        },
-        {
-          title: "Stellar Dynamics",
-          description: "Internal kinematics, rotation, expansion, and dynamical evolution of star clusters."
-        },
-        {
-          title: "Galactic Archaeology",
-          description: "Using Gaia data and large-scale stellar surveys to explore the formation and evolution of the Milky Way."
-        }
-      ];
+  ? [
+      {
+        title: "开放星团",
+        description: "研究开放星团的形成、演化与动力学过程，以及其恒星族群和暗残骸。",
+        image: "/images/research/Open%20Clusters.jpg"
+      },
+      {
+        title: "银河系结构",
+        description: "研究银河系旋臂、银盘结构以及恒星族群的三维分布。",
+        image: "/images/research/Milky%20Way%20Structure.jpg"
+      },
+      {
+        title: "恒星动力学",
+        description: "研究星团的内部运动学、整体旋转、膨胀及其动力学演化。",
+        image: "/images/research/Stellar%20Dynamics.jpg"
+      },
+      {
+        title: "银河系考古学",
+        description: "利用 Gaia 和大规模恒星巡天数据，探索银河系的形成与演化。",
+        image: "/images/research/Galactic%20Archaeology.jpg"
+      }
+    ]
+  : [
+      {
+        title: "Open Clusters",
+        description: "Formation, evolution, and dynamics of open clusters, including their stellar populations and dark remnants.",
+        image: "/images/research/Open%20Clusters.jpg"
+      },
+      {
+        title: "Milky Way Structure",
+        description: "Galactic spiral arms, disk structure, and the three-dimensional distribution of stellar populations.",
+        image: "/images/research/Milky%20Way%20Structure.jpg"
+      },
+      {
+        title: "Stellar Dynamics",
+        description: "Internal kinematics, rotation, expansion, and dynamical evolution of star clusters.",
+        image: "/images/research/Stellar%20Dynamics.jpg"
+      },
+      {
+        title: "Galactic Archaeology",
+        description: "Using Gaia data and large-scale stellar surveys to explore the formation and evolution of the Milky Way.",
+        image: "/images/research/Galactic%20Archaeology.jpg"
+      }
+    ];
 
   const highlightItems = [
     { label: copy.highlights.focusLabel, value: copy.highlights.focusValue },
@@ -143,7 +152,7 @@ export function HomeClient({
           </aside>
         </div>
       </section>
-
+      
       <Section
         title={locale === "zh" ? "研究兴趣" : "Research Interests"}
         eyebrow={locale === "zh" ? "研究方向" : "RESEARCH OVERVIEW"}
@@ -151,17 +160,27 @@ export function HomeClient({
           <Link
             href={`${base}/research` as any}
             className="text-sm font-medium text-brand transition-colors hover:text-brand-foreground"
-          >
+            >
             {locale === "zh" ? "了解更多 →" : "Learn more →"}
           </Link>
         }
-      >
+        >
         <div className="grid gap-5 sm:grid-cols-2">
           {researchInterests.map((item) => (
-            <div
-              key={item.title}
-              className="rounded-2xl border border-slate-200 bg-white/70 p-5 dark:border-slate-700 dark:bg-slate-900/40"
+          <div
+            key={item.title}
+            className="overflow-hidden rounded-2xl border border-slate-200 bg-white/70 dark:border-slate-700 dark:bg-slate-900/40"
             >
+            <div className="relative aspect-square w-full overflow-hidden bg-slate-100 dark:bg-slate-800">
+              <Image
+                src={item.image}
+                alt={item.title}
+                fill
+                sizes="(max-width: 640px) 100vw, 50vw"
+                className="object-cover transition-transform duration-500 hover:scale-105"
+                />
+            </div>
+            <div className="p-5">
               <h3 className="mb-2 text-base font-semibold text-slate-900 dark:text-slate-50">
                 {item.title}
               </h3>
@@ -169,7 +188,8 @@ export function HomeClient({
                 {item.description}
               </p>
             </div>
-          ))}
+          </div>
+        ))}
         </div>
       </Section>
 
