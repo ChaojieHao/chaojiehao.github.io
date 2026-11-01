@@ -145,17 +145,17 @@ export function HomeClient({
       </section>
 
       <Section
-        title={
+        title={locale === "zh" ? "研究兴趣" : "Research Interests"}
+        eyebrow={locale === "zh" ? "研究方向" : "RESEARCH OVERVIEW"}
+        actions={
           <Link
             href={`${base}/research` as any}
-            className="hover:text-brand transition-colors"
+            className="text-sm font-medium text-brand transition-colors hover:text-brand-foreground"
           >
-            {locale === "zh" ? "研究兴趣 →" : "Research Interests →"}
+            {locale === "zh" ? "了解更多 →" : "Learn more →"}
           </Link>
         }
-        eyebrow={locale === "zh" ? "研究方向" : "RESEARCH OVERVIEW"}
-      >
-        
+      > 
         <div className="grid gap-5 sm:grid-cols-2">
           {researchInterests.map((item) => (
             <div
