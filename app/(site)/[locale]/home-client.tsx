@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import dynamic from "next/dynamic";
 
 import { ProjectCard } from "@/components/project-card";
 import { PublicationItem } from "@/components/publication-item";
@@ -11,17 +10,6 @@ import type { AwardEntry, HomePageCopy, LocaleProfile, ProjectEntry, Publication
 import type { Locale } from "@/lib/locale";
 
 // Lazy-load non-critical component to reduce initial bundle size.
-const InfiniteScrollUpdates = dynamic(
-  () => import("@/components/infinite-scroll-updates").then((mod) => ({ default: mod.InfiniteScrollUpdates })),
-  {
-    loading: () => (
-      <div className="flex items-center justify-center py-12">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-slate-900 dark:border-slate-700 dark:border-t-slate-100" />
-      </div>
-    ),
-    ssr: false
-  }
-);
 
 type HomeClientProps = {
   locale: Locale;
@@ -42,7 +30,46 @@ export function HomeClient({
   awards,
   copy
 }: HomeClientProps) {
+  
+  void updates;
   const base = `/${locale}`;
+  const researchInterests = locale === "zh"
+    ? [
+        {
+          title: "开放星团",
+          description: "研究开放星团的形成、演化与动力学过程，以及其恒星族群和暗残骸。"
+        },
+        {
+          title: "银河系结构",
+          description: "研究银河系旋臂、银盘结构以及恒星族群的三维分布。"
+        },
+        {
+          title: "恒星动力学",
+          description: "研究星团的内部运动学、整体旋转、膨胀及其动力学演化。"
+        },
+        {
+          title: "银河系考古学",
+          description: "利用 Gaia 和大规模恒星巡天数据，探索银河系的形成与演化。"
+        }
+      ]
+    : [
+        {
+          title: "Open Clusters",
+          description: "Formation, evolution, and dynamics of open clusters, including their stellar populations and dark remnants."
+        },
+        {
+          title: "Milky Way Structure",
+          description: "Galactic spiral arms, disk structure, and the three-dimensional distribution of stellar populations."
+        },
+        {
+          title: "Stellar Dynamics",
+          description: "Internal kinematics, rotation, expansion, and dynamical evolution of star clusters."
+        },
+        {
+          title: "Galactic Archaeology",
+          description: "Using Gaia data and large-scale stellar surveys to explore the formation and evolution of the Milky Way."
+        }
+      ];
 
   const highlightItems = [
     { label: copy.highlights.focusLabel, value: copy.highlights.focusValue },
@@ -117,8 +144,25 @@ export function HomeClient({
         </div>
       </section>
 
-      <Section title={copy.sections.updates.title} eyebrow={copy.sections.updates.eyebrow}>
-        <InfiniteScrollUpdates updates={updates} />
+      <Section
+        title={locale === "zh" ? "研究兴趣" : "Research Interests"}
+        eyebrow={locale === "zh" ? "研究方向" : "RESEARCH OVERVIEW"}
+      >
+        <div className="grid gap-5 sm:grid-cols-2">
+          {researchInterests.map((item) => (
+            <div
+              key={item.title}
+              className="rounded-2xl border border-slate-200 bg-white/70 p-5 dark:border-slate-700 dark:bg-slate-900/40"
+            >
+              <h3 className="mb-2 text-base font-semibold text-slate-900 dark:text-slate-50">
+                {item.title}
+              </h3>
+              <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                {item.description}
+              </p>
+            </div>
+          ))}
+        </div>
       </Section>
 
       <Section
