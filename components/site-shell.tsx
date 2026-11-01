@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import type { ReactNode } from "react";
 import { usePathname } from "next/navigation";
 
@@ -161,6 +162,38 @@ export function SiteShell({ children, navItems, profile, locale, lastUpdated }: 
         profileName={profile.name}
         currentLocale={locale}
       />
+      {!sidebarDisabled && (
+        <div className="px-4 pt-6 lg:hidden">
+          <div className="mx-auto flex max-w-6xl items-center gap-4 rounded-2xl border border-slate-200 bg-white/90 p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900/70">
+            <div className="relative h-24 w-20 shrink-0 overflow-hidden rounded-xl border border-slate-200 dark:border-slate-700">
+              <Image
+                src={profile.avatar ?? "/images/profile.jpg"}
+                alt={profile.name}
+                fill
+                priority
+                sizes="80px"
+                className="object-cover object-top"
+              />
+            </div>
+            <div className="min-w-0 space-y-1">
+              <h1 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
+                {profile.name}
+              </h1>
+              {profile.nativeName ? (
+                <p className="text-sm text-slate-600 dark:text-slate-300">
+                  {profile.nativeName}
+                </p>
+              ) : null}
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                {profile.affiliation}
+              </p>
+              <p className="text-xs text-slate-500 dark:text-slate-400">
+                {profile.title}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
       <div
         className="mx-auto flex w-full max-w-6xl px-4 py-10 lg:px-8 xl:max-w-7xl xl:px-10 2xl:max-w-[1500px] 2xl:px-12"
         style={layoutStyles}
