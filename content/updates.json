@@ -8,106 +8,106 @@
   "en": {
     "updates": [
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "Commit",
-        "title": "Add GitHub Pages deployment workflow",
+        "title": "Implement responsive profile display in site shell",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/254ed2df96d4dbf5f7329140ddfa373283993700"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/4b2730f805e6ed8c2b7b6e006ef3fbd5fdc2bc8c"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "Commit",
-        "title": "Add GitHub Actions build test",
+        "title": "Update home-client.tsx",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a2b117329cdf3507b20674b5e9f89658c25835f"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/1adb3ca7e5d2ce68edaa69dc0aa70cc64d3eff46"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "Commit",
-        "title": "Replace al-folio with Next.js academic homepage",
+        "title": "Update home-client.tsx",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/68c39cda20da111cebdd9407bb615fff1d05a194"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7aceb749132e4d3fbb7ece3f967270fe44fa0a26"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "Commit",
-        "title": "Update _config.yml",
+        "title": "Update home-client.tsx",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/9082a57fdc95e867d9258245cec1a50c32bd1788"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8497e979afc705e824a156f84624689d9a3e67cc"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "Commit",
-        "title": "Delete index.html",
+        "title": "Add files via upload",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/5e8fa0cfd00fa74024a3fe943b4a639d66003de1"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/571bbbcb2f115f02e1675b459a670df31b647b17"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "Commit",
-        "title": "Update site settings in _config.yml",
+        "title": "Create .gitkeep",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d51021294491f200b3fd306eee9fc24d196f02cc"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ebece302ac9f1d62235ee85621d0a8f801956d1d"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "Commit",
-        "title": "Import al-folio academic website template",
+        "title": "Fix formatting in home-client.tsx",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2610c17eb9fe14da4179c4a67548d18232152633"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/46e2fb9fde58afece0d82602f0c96d54d0e55b01"
       }
     ]
   },
   "zh": {
     "updates": [
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "提交",
-        "title": "Add GitHub Pages deployment workflow",
+        "title": "Implement responsive profile display in site shell",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/254ed2df96d4dbf5f7329140ddfa373283993700"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/4b2730f805e6ed8c2b7b6e006ef3fbd5fdc2bc8c"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "提交",
-        "title": "Add GitHub Actions build test",
+        "title": "Update home-client.tsx",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a2b117329cdf3507b20674b5e9f89658c25835f"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/1adb3ca7e5d2ce68edaa69dc0aa70cc64d3eff46"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "提交",
-        "title": "Replace al-folio with Next.js academic homepage",
+        "title": "Update home-client.tsx",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/68c39cda20da111cebdd9407bb615fff1d05a194"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7aceb749132e4d3fbb7ece3f967270fe44fa0a26"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "提交",
-        "title": "Update _config.yml",
+        "title": "Update home-client.tsx",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/9082a57fdc95e867d9258245cec1a50c32bd1788"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8497e979afc705e824a156f84624689d9a3e67cc"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "提交",
-        "title": "Delete index.html",
+        "title": "Add files via upload",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/5e8fa0cfd00fa74024a3fe943b4a639d66003de1"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/571bbbcb2f115f02e1675b459a670df31b647b17"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "提交",
-        "title": "Update site settings in _config.yml",
+        "title": "Create .gitkeep",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d51021294491f200b3fd306eee9fc24d196f02cc"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ebece302ac9f1d62235ee85621d0a8f801956d1d"
       },
       {
-        "date": "2026-10-31",
+        "date": "2026-11-01",
         "type": "提交",
-        "title": "Import al-folio academic website template",
+        "title": "Fix formatting in home-client.tsx",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2610c17eb9fe14da4179c4a67548d18232152633"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/46e2fb9fde58afece0d82602f0c96d54d0e55b01"
       }
     ]
   }
