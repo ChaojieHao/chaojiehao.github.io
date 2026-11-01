@@ -37,12 +37,12 @@ export function HomeClient({
   const researchInterests = locale === "zh"
   ? [
       {
-        title: "开放星团",
-        description: "研究开放星团的形成、演化与动力学过程，以及其恒星族群和暗残骸。",
+        title: "疏散星团",
+        description: "研究疏散星团的形成、演化与动力学过程，以及其恒星族群和暗残骸。",
         image: "/images/research/Open%20Clusters.jpg"
       },
       {
-        title: "银河系结构",
+        title: "银河系结构与动力学",
         description: "研究银河系旋臂、银盘结构以及恒星族群的三维分布。",
         image: "/images/research/Milky%20Way%20Structure.jpg"
       },
