@@ -155,7 +155,7 @@ export function HomeClient({
             {locale === "zh" ? "了解更多 →" : "Learn more →"}
           </Link>
         }
-      > 
+      >
         <div className="grid gap-5 sm:grid-cols-2">
           {researchInterests.map((item) => (
             <div
