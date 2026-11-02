@@ -851,7 +851,7 @@
         "id": "2021RAA....21...93H",
         "type": "J",
         "title": "A catalogue of 74 new open clusters found in Gaia Data-Release 2",
-        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao, Zhen-Yu Wu, Jing-Jing Li",
+        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao*, Zhen-Yu Wu, Jing-Jing Li",
         "venue": "Research in Astronomy and Astrophysics, 21, (4), 093",
         "year": "2021",
         "tags": [
@@ -880,7 +880,7 @@
         "id": "2021ApJS..253...15L",
         "type": "J",
         "title": "High-sensitivity Millimeter Imaging of Molecular Outflows in Nine Nearby High-mass Star-forming Regions",
-        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao*, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
         "venue": "The Astrophysical Journals, 253, (1), 15",
         "year": "2021",
         "tags": [
@@ -1794,7 +1794,7 @@
         "id": "2021RAA....21...93H",
         "type": "J",
         "title": "A catalogue of 74 new open clusters found in Gaia Data-Release 2",
-        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao, Zhen-Yu Wu, Jing-Jing Li",
+        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao*, Zhen-Yu Wu, Jing-Jing Li",
         "venue": "Research in Astronomy and Astrophysics, 21, (4), 093",
         "year": "2021",
         "tags": [
@@ -1823,7 +1823,7 @@
         "id": "2021ApJS..253...15L",
         "type": "J",
         "title": "High-sensitivity Millimeter Imaging of Molecular Outflows in Nine Nearby High-mass Star-forming Regions",
-        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao*, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
         "venue": "The Astrophysical Journals, 253, (1), 15",
         "year": "2021",
         "tags": [
