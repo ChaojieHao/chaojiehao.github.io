@@ -4,11 +4,11 @@
     "fields": {
       "entries": "Array of publication items",
       "PublicationItem": {
-        "id": "Short identifier such as C.1",
+        "id": "BibTeX identifier",
         "type": "C|J|P|S",
         "title": "Title string",
         "authors": "Author list, highlight yourself with * if needed",
-        "venue": "Conference, journal, or patent information",
+        "venue": "Journal and bibliographic information",
         "year": "Year string",
         "tags": "Array of topic tags",
         "links": "Array of { label, href }",
@@ -19,92 +19,1886 @@
   "en": {
     "entries": [
       {
-        "id": "J.1",
+        "id": "2026ApJ..1009L..33L",
         "type": "J",
-        "title": "Learning Robust Recovery Policies for Long-Horizon Mobile Manipulation",
-        "authors": "Alex Chen*, Lina Zhao, Aaron Wu",
-        "venue": "IEEE Robotics and Automation Letters",
+        "title": "Large-scale Spiral Structure of the Milky Way Traced by Young Classical Cepheids",
+        "authors": "Z. H. Lin, Chaojie Hao*, D. J. Liu, Y. J. Li, J. J. Li, Y. W. Dong, Y. X. He, Jarken Esimbek",
+        "venue": "The Astrophysical Journall, 1009, (2), L33",
         "year": "2026",
-        "tags": ["Robot Learning", "Manipulation"],
-        "links": [{ "label": "Preprint", "href": "https://arxiv.org/abs/2401.00001" }],
-        "notes": "Student first author"
+        "tags": [
+          "Galaxy structure",
+          "Milky Way Galaxy",
+          "Cepheid variable stars",
+          "Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/2041-8213/aea61c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009L..33L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2609.34208"
+          }
+        ]
       },
       {
-        "id": "C.1",
-        "type": "C",
-        "title": "Task-Aware Coordination for Heterogeneous Inspection Robots",
-        "authors": "Alex Chen, Priya Nair, Aaron Wu",
-        "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
-        "year": "2025",
-        "tags": ["Multi-Robot", "Inspection"],
-        "links": [{ "label": "Project", "href": "https://example.com/projects/inspection" }]
-      },
-      {
-        "id": "S.1",
-        "type": "S",
-        "title": "Language-Guided Affordance Models for Adaptive Lab Assistance",
-        "authors": "Alex Chen*, Lina Zhao",
-        "venue": "Under review",
+        "id": "2026ApJ..1009..143D",
+        "type": "J",
+        "title": "Star Formation in the H II Region Sh 2-205: 3D Morphology and Kinematics from Young Stars and Molecular Gas",
+        "authors": "Yiwei Dong, Chaojie Hao*, Ye Xu, Yingjie Li, Zehao Lin, Dejian Liu, Yan Sun, Longhui Yang",
+        "venue": "The Astrophysical Journal, 1009, (2), 143",
         "year": "2026",
-        "tags": ["Embodied AI", "Vision-Language"],
-        "links": [{ "label": "Draft", "href": "#" }],
-        "notes": "Replace with your own manuscript status"
+        "tags": [
+          "Star formation",
+          "H II regions",
+          "Molecular clouds",
+          "Young stellar objects",
+          "Open star clusters",
+          "Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ae9bbe"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..143D"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2608.16179"
+          }
+        ]
       },
       {
-        "id": "P.1",
-        "type": "P",
-        "title": "Method for Cooperative Recovery Planning in Mobile Manipulation Systems",
-        "authors": "Lina Zhao, Alex Chen, Aaron Wu",
-        "venue": "Example patent application information",
+        "id": "2025AJ....170..243K",
+        "type": "J",
+        "title": "Revealing the Bifurcations of the Milky Way Spiral Arms Based on Hi-GAL and ATLASGAL Clumps",
+        "authors": "Deyun Kong, Ye Xu, Dejian Liu, Yiwei Dong, Zehao Lin, Yingjie Li, Chaojie Hao*",
+        "venue": "The Astronomical Journal, 170, (4), 243",
         "year": "2025",
-        "tags": ["Patent", "Planning"],
-        "links": [{ "label": "Patent", "href": "#" }]
+        "tags": [
+          "Galaxy structure",
+          "Galaxy kinematics",
+          "Interstellar dust",
+          "Molecular clouds"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ae0320"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2025AJ....170..243K"
+          }
+        ]
+      },
+      {
+        "id": "2025ApJS..276...63T",
+        "type": "J",
+        "title": "Calibrating the Color-Magnitude Relation of M Giants by Using Open Clusters",
+        "authors": "X. Y. Tang, Chaojie Hao*, J. Li, Z. Z. Yan, Y. Xu, J. Zhong, Z. H. Lin, Y. J. Li, D. J. Liu, L. F. Ding, X. F. Long",
+        "venue": "The Astrophysical Journals, 276, (2), 63",
+        "year": "2025",
+        "tags": [
+          "Open star clusters",
+          "M giant stars",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/ad9f39"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2025ApJS..276...63T"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2502.20841"
+          }
+        ]
+      },
+      {
+        "id": "2025ApJS..276...22Y",
+        "type": "J",
+        "title": "Kinematics of Young Stellar Objects under Various Stellar Feedback",
+        "authors": "Longhui Yang, Dejian Liu, Chaojie Hao*, Zehao Lin, YingJie Li, Yiwei Dong, Zu-Jia Lu, En-Wei Liang, Y. Xu",
+        "venue": "The Astrophysical Journals, 276, (1), 22",
+        "year": "2025",
+        "tags": [
+          "Young stellar objects",
+          "Molecular clouds",
+          "Stellar kinematics",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/ad8d53"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2025ApJS..276...22Y"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2411.09889"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168..264W",
+        "type": "J",
+        "title": "A New Statistical Analysis of the Morphology of Spiral Galaxies",
+        "authors": "Junye Wei, Ye Xu, Zehao Lin, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "venue": "The Astronomical Journal, 168, (6), 264",
+        "year": "2024",
+        "tags": [
+          "Galaxy structure",
+          "Spiral arms",
+          "Milky Way Galaxy",
+          "Spiral galaxies",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad8632"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168..264W"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2410.07676"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168..225D",
+        "type": "J",
+        "title": "3D Morphology and Motions of the Canis Major Region from Gaia DR3",
+        "authors": "Yiwei Dong, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Yan Sun, Zehao Lin",
+        "venue": "The Astronomical Journal, 168, (5), 225",
+        "year": "2024",
+        "tags": [
+          "Molecular clouds",
+          "Young stellar objects",
+          "Star forming regions",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad77a8"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168..225D"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2409.01670"
+          }
+        ]
+      },
+      {
+        "id": "2024RAA....24g2001L",
+        "type": "J",
+        "title": "VLBI with SKA: Possible Arrays and Astrometric Science",
+        "authors": "Yingjie Li, Ye Xu, Jingjing Li, Shuaibo Bian, Zehao Lin, Chaojie Hao*, Dejian Liu",
+        "venue": "Research in Astronomy and Astrophysics, 24, (7), 072001",
+        "year": "2024",
+        "tags": [
+          "astrometry",
+          "parallaxes",
+          "stars: kinematics and dynamics",
+          "ISM: kinematics and dynamics",
+          "Galaxy: kinematics and dynamics",
+          "galaxies: kinematics and dynamics",
+          "gravitation",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Cosmology and Nongalactic Astrophysics",
+          "Astrophysics - Instrumentation and Methods for Astrophysics",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "General Relativity and Quantum Cosmology"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/ad420c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024RAA....24g2001L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2404.14663"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168...34W",
+        "type": "J",
+        "title": "Search for Classical Cepheids in Galactic Open Clusters and Calibration of the Period-Wesenheit-Metallicity Relation in the Gaia Bands",
+        "authors": "Huajian Wang, Ye Xu, Zehao Lin, Chaojie Hao*, Dejian Liu, Yingjie Li",
+        "venue": "The Astronomical Journal, 168, (1), 34",
+        "year": "2024",
+        "tags": [
+          "Cepheid variable stars",
+          "Cepheid distance",
+          "Open star clusters",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad50d3"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168...34W"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2407.01980"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168...25G",
+        "type": "J",
+        "title": "Evolution of the Local Spiral Structure Revealed by OB-type Stars in Gaia DR3",
+        "authors": "Q. A. Ge, J. J. Li, Chaojie Hao*, Z. H. Lin, L. G. Hou, D. J. Liu, Y. J. Li, S. B. Bian",
+        "venue": "The Astronomical Journal, 168, (1), 25",
+        "year": "2024",
+        "tags": [
+          "Galaxy structure",
+          "Galaxy evolution",
+          "Galaxy stellar content",
+          "Solar neighborhood"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad5201"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168...25G"
+          }
+        ]
+      },
+      {
+        "id": "2024ApJ...964...93L",
+        "type": "J",
+        "title": "Molecular Bubble and Outflow in S Mon Revealed by Multiband Data Sets",
+        "authors": "Dejian Liu, Ye Xu, YingJie Li, Zehao Lin, Chaojie Hao*, WenJin Yang, Jingjing Li, Xinrong Liu, Yiwei Dong, Shuaibo Bian, Deyun Kong",
+        "venue": "The Astrophysical Journal, 964, (1), 93",
+        "year": "2024",
+        "tags": [
+          "Young stellar objects",
+          "Interstellar molecules",
+          "Stellar wind bubbles",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ad24e0"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024ApJ...964...93L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2401.17525"
+          }
+        ]
+      },
+      {
+        "id": "2024ApJ...963..153H",
+        "type": "J",
+        "title": "Probing the Nature of Rotation in the Pleiades, Alpha Persei, and Hyades Clusters",
+        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, Z. H. Lin, Y. J. Li, Y. W. Dong, D. J. Liu",
+        "venue": "The Astrophysical Journal, 963, (2), 153",
+        "year": "2024",
+        "tags": [
+          "Open star clusters",
+          "Stellar kinematics",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ad2459"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024ApJ...963..153H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2402.12160"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJS..268...46L",
+        "type": "J",
+        "title": "Kinematics of the Local Spiral Structure Revealed by Young Stars in Gaia DR3",
+        "authors": "Dejian Liu, Ye Xu, Chaojie Hao*, Shuaibo Bian, Zehao Lin, Yingjie Li, Jingjing Li",
+        "venue": "The Astrophysical Journals, 268, (2), 46",
+        "year": "2023",
+        "tags": [
+          "Galaxy kinematics",
+          "Open star clusters",
+          "OB stars",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/acf3e3"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJS..268...46L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2308.12489"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJS..268....1D",
+        "type": "J",
+        "title": "Distributions and Physical Properties of Molecular Clouds in the Third Galactic Quadrant: l = [219.75, 229.75] and b = [-5.25, 5.25]",
+        "authors": "Yiwei Dong, Yan Sun, Ye Xu, Zehao Lin, Shuaibo Bian, Chaojie Hao*, Dejian Liu, Yingjie Li, Ji Yang, Yang Su, Xin Zhou, Shaobo Zhang, Qing-Zeng Yan, Zhiwei Chen",
+        "venue": "The Astrophysical Journals, 268, (1), 1",
+        "year": "2023",
+        "tags": [
+          "Interstellar molecules",
+          "CO line emission",
+          "Molecular clouds",
+          "Spiral arms",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/acde81"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJS..268....1D"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2308.10484"
+          }
+        ]
+      },
+      {
+        "id": "2023RAA....23g5023H",
+        "type": "J",
+        "title": "Unveiling the Initial Conditions of Open Star Cluster Formation",
+        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, Z. H. Lin, Y. J. Li",
+        "venue": "Research in Astronomy and Astrophysics, 23, (7), 075023",
+        "year": "2023",
+        "tags": [
+          "Galaxy: stellar content",
+          "(Galaxy:) open clusters and associations: general",
+          "stars: formation",
+          "stars: kinematics and dynamics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/acd58d"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023RAA....23g5023H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2305.04415"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJ...952...64L",
+        "type": "J",
+        "title": "Massive Hypervelocity Runaway Stars in the Large Magellanic Cloud",
+        "authors": "Zehao Lin, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "venue": "The Astrophysical Journal, 952, (1), 64",
+        "year": "2023",
+        "tags": [
+          "Stellar kinematics",
+          "Stellar dynamics",
+          "Proper motions",
+          "Large Magellanic Cloud"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/acd644"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJ...952...64L"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJ...947...54X",
+        "type": "J",
+        "title": "What Does the Milky Way Look Like?",
+        "authors": "Y. Xu, Chaojie Hao*, D. J. Liu, Z. H. Lin, S. B. Bian, L. G. Hou, J. J. Li, Y. J. Li",
+        "venue": "The Astrophysical Journal, 947, (2), 54",
+        "year": "2023",
+        "tags": [
+          "Galaxy structure",
+          "Milky Way Galaxy",
+          "Trigonometric parallax",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/acc45c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJ...947...54X"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2304.10690"
+          }
+        ]
+      },
+      {
+        "id": "2022A&A...668A..13H",
+        "type": "J",
+        "title": "Open clusters housing classical Cepheids in Gaia DR3",
+        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, S. B. Bian, Y. J. Li, D. J. Liu",
+        "venue": "Astronomy & Astrophysics, 668, A13",
+        "year": "2022",
+        "tags": [
+          "Galaxy: stellar content",
+          "open clusters and associations: general",
+          "stars: variables: Cepheids",
+          "methods: data analysis",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202244570"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022A&A...668A..13H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2210.01521"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...938..100H",
+        "type": "J",
+        "title": "On the Nature of Rotation in the Praesepe Cluster",
+        "authors": "Chaojie Hao*, Y. Xu, S. B. Bian, L. G. Hou, Z. H. Lin, Y. J. Li, D. J. Liu",
+        "venue": "The Astrophysical Journal, 938, (2), 100",
+        "year": "2022",
+        "tags": [
+          "Open star clusters",
+          "Stellar kinematics",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac92fc"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...938..100H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2210.01420"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...938...58L",
+        "type": "J",
+        "title": "The Effect of Light Deflection by Solar System Objects on High-precision Square Kilometre Array Astrometry",
+        "authors": "Yingjie Li, Ye Xu, Shaibo Bian, ZeHao Lin, JingJing Li, DeJian Liu, Chaojie Hao*",
+        "venue": "The Astrophysical Journal, 938, (1), 58",
+        "year": "2022",
+        "tags": [
+          "Gravitational deflection",
+          "Radio astrometry",
+          "Gravitation",
+          "General relativity",
+          "Compact galaxies",
+          "Radio interferometry",
+          "General Relativity and Quantum Cosmology",
+          "Astrophysics - Earth and Planetary Astrophysics",
+          "Astrophysics - Instrumentation and Methods for Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac8df8"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...938...58L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2209.08702"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...938...33L",
+        "type": "J",
+        "title": "Calibrating the Cepheid Period-Wesenheit Relation in the Gaia Bands Using Galactic Open-cluster Cepheids",
+        "authors": "Zehao lin, Ye Xu, Chaojie Hao*, Dejian Liu, Yingjie Li, Shuaibo Bian",
+        "venue": "The Astrophysical Journal, 938, (1), 33",
+        "year": "2022",
+        "tags": [
+          "Cepheid variable stars",
+          "Cepheid distance",
+          "Open star clusters",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac9051"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...938...33L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2210.02086"
+          }
+        ]
+      },
+      {
+        "id": "2022RAA....22h1001L",
+        "type": "J",
+        "title": "A Baseline Correction Algorithm for FAST",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Ze-Hao Lin, Shuai-Bo Bian, Chao-Jie Hao",
+        "venue": "Research in Astronomy and Astrophysics, 22, (8), 081001",
+        "year": "2022",
+        "tags": [
+          "methods: observational",
+          "techniques: spectroscopic",
+          "telescopes",
+          "Astrophysics - Instrumentation and Methods for Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/ac7d43"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022RAA....22h1001L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2206.14544"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...935..153L",
+        "type": "J",
+        "title": "Neutral Stellar Winds toward the High-mass Star-forming Region G176.51+00.20",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "venue": "The Astrophysical Journal, 935, (2), 153",
+        "year": "2022",
+        "tags": [
+          "Jets",
+          "Interstellar atomic gas",
+          "Star formation",
+          "Interstellar abundances",
+          "Interstellar dynamics",
+          "Interstellar molecules",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac815a"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...935..153L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2207.06602"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...933L..26L",
+        "type": "J",
+        "title": "H I Narrow-line Self-absorptions toward the High-mass Star-forming Region G176.51+00.20",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "venue": "The Astrophysical Journall, 933, (2), L26",
+        "year": "2022",
+        "tags": [
+          "Interstellar atomic gas",
+          "Interstellar abundances",
+          "Interstellar molecules",
+          "Star formation",
+          "Interstellar dynamics",
+          "Jets",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/2041-8213/ac7b7c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...933L..26L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2207.06601"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...931...72L",
+        "type": "J",
+        "title": "Local Spiral Structure Traced by Red Clump Stars",
+        "authors": "Zehao Lin, Ye Xu, Ligang Hou, Dejian Liu, Yingjie Li, Chaojie Hao*, Jingjing Li, Shuaibo Bian",
+        "venue": "The Astrophysical Journal, 931, (1), 72",
+        "year": "2022",
+        "tags": [
+          "Galaxy structure",
+          "Galaxy stellar content",
+          "Solar neighborhood",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac67a6"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...931...72L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2205.15507"
+          }
+        ]
+      },
+      {
+        "id": "2022A&A...660A...4H",
+        "type": "J",
+        "title": "Newly detected open clusters in the Galactic disk using Gaia EDR3",
+        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, D. J. Liu, Y. J. Li",
+        "venue": "Astronomy & Astrophysics, 660, A4",
+        "year": "2022",
+        "tags": [
+          "Galaxy: stellar content",
+          "open clusters and associations: general",
+          "methods: data analysis",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202243091"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022A&A...660A...4H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2204.00196"
+          }
+        ]
+      },
+      {
+        "id": "2022AJ....163...54B",
+        "type": "J",
+        "title": "Parallax of Star-forming Region G027.22+0.14",
+        "authors": "S. B. Bian, Y. Xu, J. J. Li, Y. W. Wu, B. Zhang, X. Chen, Y. J. Li, Z. H. Lin, Chaojie Hao*, D. J. Liu",
+        "venue": "The Astronomical Journal, 163, (2), 54",
+        "year": "2022",
+        "tags": [
+          "1054",
+          "1569",
+          "1713",
+          "846"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ac3d90"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022AJ....163...54B"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...925...47L",
+        "type": "J",
+        "title": "Light Deflection under the Gravitational Field of Jupiter-Testing General Relativity",
+        "authors": "Yingjie Li, Ye Xu, JingJing Li, Yuanwei Wu, Shaibo Bian, ZeHao Lin, WenJin Yang, Chaojie Hao*, DeJian Liu",
+        "venue": "The Astrophysical Journal, 925, (1), 47",
+        "year": "2022",
+        "tags": [
+          "661",
+          "641",
+          "663",
+          "285",
+          "1769",
+          "General Relativity and Quantum Cosmology",
+          "Astrophysics - Earth and Planetary Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac3821"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...925...47L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2111.14095"
+          }
+        ]
+      },
+      {
+        "id": "2021A&A...652A.102H",
+        "type": "J",
+        "title": "Evolution of the local spiral structure of the Milky Way revealed by open clusters",
+        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, J. J. Li, Z. Y. Wu, Z. H. He, Y. J. Li, D. J. Liu",
+        "venue": "Astronomy & Astrophysics, 652, A102",
+        "year": "2021",
+        "tags": [
+          "Galaxy: evolution",
+          "Galaxy: structure",
+          "Galaxy: kinematics and dynamics",
+          "open clusters and associations: general",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202140608"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021A&A...652A.102H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2107.06478"
+          }
+        ]
+      },
+      {
+        "id": "2021RAA....21...93H",
+        "type": "J",
+        "title": "A catalogue of 74 new open clusters found in Gaia Data-Release 2",
+        "authors": "Zhi-Hong He, Ye Xu, Chao-Jie Hao, Zhen-Yu Wu, Jing-Jing Li",
+        "venue": "Research in Astronomy and Astrophysics, 21, (4), 093",
+        "year": "2021",
+        "tags": [
+          "Galaxy: open clusters and associations",
+          "methods: data analysis",
+          "surveys",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/21/4/93"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021RAA....21...93H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2010.14870"
+          }
+        ]
+      },
+      {
+        "id": "2021ApJS..253...15L",
+        "type": "J",
+        "title": "High-sensitivity Millimeter Imaging of Molecular Outflows in Nine Nearby High-mass Star-forming Regions",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chao-Jie Hao, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
+        "venue": "The Astrophysical Journals, 253, (1), 15",
+        "year": "2021",
+        "tags": [
+          "Jets",
+          "Interstellar clouds",
+          "Star formation",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/abcece"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253...15L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2012.03226"
+          }
+        ]
+      },
+      {
+        "id": "2021A&A...645L...8X",
+        "type": "J",
+        "title": "Local spiral structure based on the Gaia EDR3 parallaxes",
+        "authors": "Y. Xu, L. G. Hou, S. B. Bian, Chaojie Hao*, D. J. Liu, J. J. Li, Y. J. Li",
+        "venue": "Astronomy & Astrophysics, 645, L8",
+        "year": "2021",
+        "tags": [
+          "astrometry",
+          "Galaxy: structure",
+          "stars: early-type",
+          "stars: massive",
+          "masers",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202040103"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021A&A...645L...8X"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2101.00158"
+          }
+        ]
+      },
+      {
+        "id": "2020PASP..132c4502H",
+        "type": "J",
+        "title": "Sixteen Open Clusters Discovered with Sample-based Clustering Search of Gaia DR2",
+        "authors": "Chaojie Hao*, Ye Xu, ZhenYu Wu, ZhiHong He, ShuaiBo Bian",
+        "venue": "Publications of the Astronomical Society of the Pacific, 132, (1009), 034502",
+        "year": "2020",
+        "tags": [
+          "methods: data analysis",
+          "methods: statistical",
+          "open clusters and associations: general"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1538-3873/ab694d"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2020PASP..132c4502H"
+          }
+        ]
       }
     ]
   },
   "zh": {
     "entries": [
       {
-        "id": "J.1",
+        "id": "2026ApJ..1009L..33L",
         "type": "J",
-        "title": "面向长时程移动操控的鲁棒恢复策略学习",
-        "authors": "陈明远*, 赵琳, 吴安然",
-        "venue": "IEEE Robotics and Automation Letters",
+        "title": "Large-scale Spiral Structure of the Milky Way Traced by Young Classical Cepheids",
+        "authors": "Z. H. Lin, Chaojie Hao*, D. J. Liu, Y. J. Li, J. J. Li, Y. W. Dong, Y. X. He, Jarken Esimbek",
+        "venue": "The Astrophysical Journall, 1009, (2), L33",
         "year": "2026",
-        "tags": ["机器人学习", "操控"],
-        "links": [{ "label": "预印本", "href": "https://arxiv.org/abs/2401.00001" }],
-        "notes": "学生一作"
+        "tags": [
+          "Galaxy structure",
+          "Milky Way Galaxy",
+          "Cepheid variable stars",
+          "Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/2041-8213/aea61c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009L..33L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2609.34208"
+          }
+        ]
       },
       {
-        "id": "C.1",
-        "type": "C",
-        "title": "面向异构巡检机器人的任务感知协同方法",
-        "authors": "陈明远, Priya Nair, 吴安然",
-        "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
-        "year": "2025",
-        "tags": ["多机器人", "巡检"],
-        "links": [{ "label": "项目页", "href": "https://example.com/projects/inspection" }]
-      },
-      {
-        "id": "S.1",
-        "type": "S",
-        "title": "面向实验室协助任务的语言引导可供性模型",
-        "authors": "陈明远*, 赵琳",
-        "venue": "审稿中",
+        "id": "2026ApJ..1009..143D",
+        "type": "J",
+        "title": "Star Formation in the H II Region Sh 2-205: 3D Morphology and Kinematics from Young Stars and Molecular Gas",
+        "authors": "Yiwei Dong, Chaojie Hao*, Ye Xu, Yingjie Li, Zehao Lin, Dejian Liu, Yan Sun, Longhui Yang",
+        "venue": "The Astrophysical Journal, 1009, (2), 143",
         "year": "2026",
-        "tags": ["具身智能", "视觉语言"],
-        "links": [{ "label": "草稿", "href": "#" }],
-        "notes": "请替换为你自己的论文状态"
+        "tags": [
+          "Star formation",
+          "H II regions",
+          "Molecular clouds",
+          "Young stellar objects",
+          "Open star clusters",
+          "Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ae9bbe"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2026ApJ..1009..143D"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2608.16179"
+          }
+        ]
       },
       {
-        "id": "P.1",
-        "type": "P",
-        "title": "一种面向移动操控系统的协同恢复规划方法",
-        "authors": "赵琳, 陈明远, 吴安然",
-        "venue": "示例专利申请信息",
+        "id": "2025AJ....170..243K",
+        "type": "J",
+        "title": "Revealing the Bifurcations of the Milky Way Spiral Arms Based on Hi-GAL and ATLASGAL Clumps",
+        "authors": "Deyun Kong, Ye Xu, Dejian Liu, Yiwei Dong, Zehao Lin, Yingjie Li, Chaojie Hao*",
+        "venue": "The Astronomical Journal, 170, (4), 243",
         "year": "2025",
-        "tags": ["专利", "规划"],
-        "links": [{ "label": "专利", "href": "#" }]
+        "tags": [
+          "Galaxy structure",
+          "Galaxy kinematics",
+          "Interstellar dust",
+          "Molecular clouds"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ae0320"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2025AJ....170..243K"
+          }
+        ]
+      },
+      {
+        "id": "2025ApJS..276...63T",
+        "type": "J",
+        "title": "Calibrating the Color-Magnitude Relation of M Giants by Using Open Clusters",
+        "authors": "X. Y. Tang, Chaojie Hao*, J. Li, Z. Z. Yan, Y. Xu, J. Zhong, Z. H. Lin, Y. J. Li, D. J. Liu, L. F. Ding, X. F. Long",
+        "venue": "The Astrophysical Journals, 276, (2), 63",
+        "year": "2025",
+        "tags": [
+          "Open star clusters",
+          "M giant stars",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/ad9f39"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2025ApJS..276...63T"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2502.20841"
+          }
+        ]
+      },
+      {
+        "id": "2025ApJS..276...22Y",
+        "type": "J",
+        "title": "Kinematics of Young Stellar Objects under Various Stellar Feedback",
+        "authors": "Longhui Yang, Dejian Liu, Chaojie Hao*, Zehao Lin, YingJie Li, Yiwei Dong, Zu-Jia Lu, En-Wei Liang, Y. Xu",
+        "venue": "The Astrophysical Journals, 276, (1), 22",
+        "year": "2025",
+        "tags": [
+          "Young stellar objects",
+          "Molecular clouds",
+          "Stellar kinematics",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/ad8d53"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2025ApJS..276...22Y"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2411.09889"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168..264W",
+        "type": "J",
+        "title": "A New Statistical Analysis of the Morphology of Spiral Galaxies",
+        "authors": "Junye Wei, Ye Xu, Zehao Lin, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "venue": "The Astronomical Journal, 168, (6), 264",
+        "year": "2024",
+        "tags": [
+          "Galaxy structure",
+          "Spiral arms",
+          "Milky Way Galaxy",
+          "Spiral galaxies",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad8632"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168..264W"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2410.07676"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168..225D",
+        "type": "J",
+        "title": "3D Morphology and Motions of the Canis Major Region from Gaia DR3",
+        "authors": "Yiwei Dong, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Yan Sun, Zehao Lin",
+        "venue": "The Astronomical Journal, 168, (5), 225",
+        "year": "2024",
+        "tags": [
+          "Molecular clouds",
+          "Young stellar objects",
+          "Star forming regions",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad77a8"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168..225D"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2409.01670"
+          }
+        ]
+      },
+      {
+        "id": "2024RAA....24g2001L",
+        "type": "J",
+        "title": "VLBI with SKA: Possible Arrays and Astrometric Science",
+        "authors": "Yingjie Li, Ye Xu, Jingjing Li, Shuaibo Bian, Zehao Lin, Chaojie Hao*, Dejian Liu",
+        "venue": "Research in Astronomy and Astrophysics, 24, (7), 072001",
+        "year": "2024",
+        "tags": [
+          "astrometry",
+          "parallaxes",
+          "stars: kinematics and dynamics",
+          "ISM: kinematics and dynamics",
+          "Galaxy: kinematics and dynamics",
+          "galaxies: kinematics and dynamics",
+          "gravitation",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Cosmology and Nongalactic Astrophysics",
+          "Astrophysics - Instrumentation and Methods for Astrophysics",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "General Relativity and Quantum Cosmology"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/ad420c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024RAA....24g2001L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2404.14663"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168...34W",
+        "type": "J",
+        "title": "Search for Classical Cepheids in Galactic Open Clusters and Calibration of the Period-Wesenheit-Metallicity Relation in the Gaia Bands",
+        "authors": "Huajian Wang, Ye Xu, Zehao Lin, Chaojie Hao*, Dejian Liu, Yingjie Li",
+        "venue": "The Astronomical Journal, 168, (1), 34",
+        "year": "2024",
+        "tags": [
+          "Cepheid variable stars",
+          "Cepheid distance",
+          "Open star clusters",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad50d3"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168...34W"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2407.01980"
+          }
+        ]
+      },
+      {
+        "id": "2024AJ....168...25G",
+        "type": "J",
+        "title": "Evolution of the Local Spiral Structure Revealed by OB-type Stars in Gaia DR3",
+        "authors": "Q. A. Ge, J. J. Li, Chaojie Hao*, Z. H. Lin, L. G. Hou, D. J. Liu, Y. J. Li, S. B. Bian",
+        "venue": "The Astronomical Journal, 168, (1), 25",
+        "year": "2024",
+        "tags": [
+          "Galaxy structure",
+          "Galaxy evolution",
+          "Galaxy stellar content",
+          "Solar neighborhood"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ad5201"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024AJ....168...25G"
+          }
+        ]
+      },
+      {
+        "id": "2024ApJ...964...93L",
+        "type": "J",
+        "title": "Molecular Bubble and Outflow in S Mon Revealed by Multiband Data Sets",
+        "authors": "Dejian Liu, Ye Xu, YingJie Li, Zehao Lin, Chaojie Hao*, WenJin Yang, Jingjing Li, Xinrong Liu, Yiwei Dong, Shuaibo Bian, Deyun Kong",
+        "venue": "The Astrophysical Journal, 964, (1), 93",
+        "year": "2024",
+        "tags": [
+          "Young stellar objects",
+          "Interstellar molecules",
+          "Stellar wind bubbles",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ad24e0"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024ApJ...964...93L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2401.17525"
+          }
+        ]
+      },
+      {
+        "id": "2024ApJ...963..153H",
+        "type": "J",
+        "title": "Probing the Nature of Rotation in the Pleiades, Alpha Persei, and Hyades Clusters",
+        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, Z. H. Lin, Y. J. Li, Y. W. Dong, D. J. Liu",
+        "venue": "The Astrophysical Journal, 963, (2), 153",
+        "year": "2024",
+        "tags": [
+          "Open star clusters",
+          "Stellar kinematics",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ad2459"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2024ApJ...963..153H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2402.12160"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJS..268...46L",
+        "type": "J",
+        "title": "Kinematics of the Local Spiral Structure Revealed by Young Stars in Gaia DR3",
+        "authors": "Dejian Liu, Ye Xu, Chaojie Hao*, Shuaibo Bian, Zehao Lin, Yingjie Li, Jingjing Li",
+        "venue": "The Astrophysical Journals, 268, (2), 46",
+        "year": "2023",
+        "tags": [
+          "Galaxy kinematics",
+          "Open star clusters",
+          "OB stars",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/acf3e3"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJS..268...46L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2308.12489"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJS..268....1D",
+        "type": "J",
+        "title": "Distributions and Physical Properties of Molecular Clouds in the Third Galactic Quadrant: l = [219.75, 229.75] and b = [-5.25, 5.25]",
+        "authors": "Yiwei Dong, Yan Sun, Ye Xu, Zehao Lin, Shuaibo Bian, Chaojie Hao*, Dejian Liu, Yingjie Li, Ji Yang, Yang Su, Xin Zhou, Shaobo Zhang, Qing-Zeng Yan, Zhiwei Chen",
+        "venue": "The Astrophysical Journals, 268, (1), 1",
+        "year": "2023",
+        "tags": [
+          "Interstellar molecules",
+          "CO line emission",
+          "Molecular clouds",
+          "Spiral arms",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/acde81"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJS..268....1D"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2308.10484"
+          }
+        ]
+      },
+      {
+        "id": "2023RAA....23g5023H",
+        "type": "J",
+        "title": "Unveiling the Initial Conditions of Open Star Cluster Formation",
+        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, Z. H. Lin, Y. J. Li",
+        "venue": "Research in Astronomy and Astrophysics, 23, (7), 075023",
+        "year": "2023",
+        "tags": [
+          "Galaxy: stellar content",
+          "(Galaxy:) open clusters and associations: general",
+          "stars: formation",
+          "stars: kinematics and dynamics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/acd58d"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023RAA....23g5023H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2305.04415"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJ...952...64L",
+        "type": "J",
+        "title": "Massive Hypervelocity Runaway Stars in the Large Magellanic Cloud",
+        "authors": "Zehao Lin, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "venue": "The Astrophysical Journal, 952, (1), 64",
+        "year": "2023",
+        "tags": [
+          "Stellar kinematics",
+          "Stellar dynamics",
+          "Proper motions",
+          "Large Magellanic Cloud"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/acd644"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJ...952...64L"
+          }
+        ]
+      },
+      {
+        "id": "2023ApJ...947...54X",
+        "type": "J",
+        "title": "What Does the Milky Way Look Like?",
+        "authors": "Y. Xu, Chaojie Hao*, D. J. Liu, Z. H. Lin, S. B. Bian, L. G. Hou, J. J. Li, Y. J. Li",
+        "venue": "The Astrophysical Journal, 947, (2), 54",
+        "year": "2023",
+        "tags": [
+          "Galaxy structure",
+          "Milky Way Galaxy",
+          "Trigonometric parallax",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/acc45c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2023ApJ...947...54X"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2304.10690"
+          }
+        ]
+      },
+      {
+        "id": "2022A&A...668A..13H",
+        "type": "J",
+        "title": "Open clusters housing classical Cepheids in Gaia DR3",
+        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, S. B. Bian, Y. J. Li, D. J. Liu",
+        "venue": "Astronomy & Astrophysics, 668, A13",
+        "year": "2022",
+        "tags": [
+          "Galaxy: stellar content",
+          "open clusters and associations: general",
+          "stars: variables: Cepheids",
+          "methods: data analysis",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202244570"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022A&A...668A..13H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2210.01521"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...938..100H",
+        "type": "J",
+        "title": "On the Nature of Rotation in the Praesepe Cluster",
+        "authors": "Chaojie Hao*, Y. Xu, S. B. Bian, L. G. Hou, Z. H. Lin, Y. J. Li, D. J. Liu",
+        "venue": "The Astrophysical Journal, 938, (2), 100",
+        "year": "2022",
+        "tags": [
+          "Open star clusters",
+          "Stellar kinematics",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac92fc"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...938..100H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2210.01420"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...938...58L",
+        "type": "J",
+        "title": "The Effect of Light Deflection by Solar System Objects on High-precision Square Kilometre Array Astrometry",
+        "authors": "Yingjie Li, Ye Xu, Shaibo Bian, ZeHao Lin, JingJing Li, DeJian Liu, Chaojie Hao*",
+        "venue": "The Astrophysical Journal, 938, (1), 58",
+        "year": "2022",
+        "tags": [
+          "Gravitational deflection",
+          "Radio astrometry",
+          "Gravitation",
+          "General relativity",
+          "Compact galaxies",
+          "Radio interferometry",
+          "General Relativity and Quantum Cosmology",
+          "Astrophysics - Earth and Planetary Astrophysics",
+          "Astrophysics - Instrumentation and Methods for Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac8df8"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...938...58L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2209.08702"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...938...33L",
+        "type": "J",
+        "title": "Calibrating the Cepheid Period-Wesenheit Relation in the Gaia Bands Using Galactic Open-cluster Cepheids",
+        "authors": "Zehao lin, Ye Xu, Chaojie Hao*, Dejian Liu, Yingjie Li, Shuaibo Bian",
+        "venue": "The Astrophysical Journal, 938, (1), 33",
+        "year": "2022",
+        "tags": [
+          "Cepheid variable stars",
+          "Cepheid distance",
+          "Open star clusters",
+          "Astrophysics - Solar and Stellar Astrophysics",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac9051"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...938...33L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2210.02086"
+          }
+        ]
+      },
+      {
+        "id": "2022RAA....22h1001L",
+        "type": "J",
+        "title": "A Baseline Correction Algorithm for FAST",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Ze-Hao Lin, Shuai-Bo Bian, Chao-Jie Hao",
+        "venue": "Research in Astronomy and Astrophysics, 22, (8), 081001",
+        "year": "2022",
+        "tags": [
+          "methods: observational",
+          "techniques: spectroscopic",
+          "telescopes",
+          "Astrophysics - Instrumentation and Methods for Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/ac7d43"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022RAA....22h1001L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2206.14544"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...935..153L",
+        "type": "J",
+        "title": "Neutral Stellar Winds toward the High-mass Star-forming Region G176.51+00.20",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "venue": "The Astrophysical Journal, 935, (2), 153",
+        "year": "2022",
+        "tags": [
+          "Jets",
+          "Interstellar atomic gas",
+          "Star formation",
+          "Interstellar abundances",
+          "Interstellar dynamics",
+          "Interstellar molecules",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac815a"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...935..153L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2207.06602"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...933L..26L",
+        "type": "J",
+        "title": "H I Narrow-line Self-absorptions toward the High-mass Star-forming Region G176.51+00.20",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "venue": "The Astrophysical Journall, 933, (2), L26",
+        "year": "2022",
+        "tags": [
+          "Interstellar atomic gas",
+          "Interstellar abundances",
+          "Interstellar molecules",
+          "Star formation",
+          "Interstellar dynamics",
+          "Jets",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/2041-8213/ac7b7c"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...933L..26L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2207.06601"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...931...72L",
+        "type": "J",
+        "title": "Local Spiral Structure Traced by Red Clump Stars",
+        "authors": "Zehao Lin, Ye Xu, Ligang Hou, Dejian Liu, Yingjie Li, Chaojie Hao*, Jingjing Li, Shuaibo Bian",
+        "venue": "The Astrophysical Journal, 931, (1), 72",
+        "year": "2022",
+        "tags": [
+          "Galaxy structure",
+          "Galaxy stellar content",
+          "Solar neighborhood",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac67a6"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...931...72L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2205.15507"
+          }
+        ]
+      },
+      {
+        "id": "2022A&A...660A...4H",
+        "type": "J",
+        "title": "Newly detected open clusters in the Galactic disk using Gaia EDR3",
+        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, D. J. Liu, Y. J. Li",
+        "venue": "Astronomy & Astrophysics, 660, A4",
+        "year": "2022",
+        "tags": [
+          "Galaxy: stellar content",
+          "open clusters and associations: general",
+          "methods: data analysis",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202243091"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022A&A...660A...4H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2204.00196"
+          }
+        ]
+      },
+      {
+        "id": "2022AJ....163...54B",
+        "type": "J",
+        "title": "Parallax of Star-forming Region G027.22+0.14",
+        "authors": "S. B. Bian, Y. Xu, J. J. Li, Y. W. Wu, B. Zhang, X. Chen, Y. J. Li, Z. H. Lin, Chaojie Hao*, D. J. Liu",
+        "venue": "The Astronomical Journal, 163, (2), 54",
+        "year": "2022",
+        "tags": [
+          "1054",
+          "1569",
+          "1713",
+          "846"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-3881/ac3d90"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022AJ....163...54B"
+          }
+        ]
+      },
+      {
+        "id": "2022ApJ...925...47L",
+        "type": "J",
+        "title": "Light Deflection under the Gravitational Field of Jupiter-Testing General Relativity",
+        "authors": "Yingjie Li, Ye Xu, JingJing Li, Yuanwei Wu, Shaibo Bian, ZeHao Lin, WenJin Yang, Chaojie Hao*, DeJian Liu",
+        "venue": "The Astrophysical Journal, 925, (1), 47",
+        "year": "2022",
+        "tags": [
+          "661",
+          "641",
+          "663",
+          "285",
+          "1769",
+          "General Relativity and Quantum Cosmology",
+          "Astrophysics - Earth and Planetary Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4357/ac3821"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022ApJ...925...47L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2111.14095"
+          }
+        ]
+      },
+      {
+        "id": "2021A&A...652A.102H",
+        "type": "J",
+        "title": "Evolution of the local spiral structure of the Milky Way revealed by open clusters",
+        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, J. J. Li, Z. Y. Wu, Z. H. He, Y. J. Li, D. J. Liu",
+        "venue": "Astronomy & Astrophysics, 652, A102",
+        "year": "2021",
+        "tags": [
+          "Galaxy: evolution",
+          "Galaxy: structure",
+          "Galaxy: kinematics and dynamics",
+          "open clusters and associations: general",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202140608"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021A&A...652A.102H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2107.06478"
+          }
+        ]
+      },
+      {
+        "id": "2021RAA....21...93H",
+        "type": "J",
+        "title": "A catalogue of 74 new open clusters found in Gaia Data-Release 2",
+        "authors": "Zhi-Hong He, Ye Xu, Chao-Jie Hao, Zhen-Yu Wu, Jing-Jing Li",
+        "venue": "Research in Astronomy and Astrophysics, 21, (4), 093",
+        "year": "2021",
+        "tags": [
+          "Galaxy: open clusters and associations",
+          "methods: data analysis",
+          "surveys",
+          "Astrophysics - Astrophysics of Galaxies",
+          "Astrophysics - Solar and Stellar Astrophysics"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1674-4527/21/4/93"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021RAA....21...93H"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2010.14870"
+          }
+        ]
+      },
+      {
+        "id": "2021ApJS..253...15L",
+        "type": "J",
+        "title": "High-sensitivity Millimeter Imaging of Molecular Outflows in Nine Nearby High-mass Star-forming Regions",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chao-Jie Hao, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
+        "venue": "The Astrophysical Journals, 253, (1), 15",
+        "year": "2021",
+        "tags": [
+          "Jets",
+          "Interstellar clouds",
+          "Star formation",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.3847/1538-4365/abcece"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021ApJS..253...15L"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2012.03226"
+          }
+        ]
+      },
+      {
+        "id": "2021A&A...645L...8X",
+        "type": "J",
+        "title": "Local spiral structure based on the Gaia EDR3 parallaxes",
+        "authors": "Y. Xu, L. G. Hou, S. B. Bian, Chaojie Hao*, D. J. Liu, J. J. Li, Y. J. Li",
+        "venue": "Astronomy & Astrophysics, 645, L8",
+        "year": "2021",
+        "tags": [
+          "astrometry",
+          "Galaxy: structure",
+          "stars: early-type",
+          "stars: massive",
+          "masers",
+          "Astrophysics - Astrophysics of Galaxies"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1051/0004-6361/202040103"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021A&A...645L...8X"
+          },
+          {
+            "label": "arXiv",
+            "href": "https://arxiv.org/abs/2101.00158"
+          }
+        ]
+      },
+      {
+        "id": "2020PASP..132c4502H",
+        "type": "J",
+        "title": "Sixteen Open Clusters Discovered with Sample-based Clustering Search of Gaia DR2",
+        "authors": "Chaojie Hao*, Ye Xu, ZhenYu Wu, ZhiHong He, ShuaiBo Bian",
+        "venue": "Publications of the Astronomical Society of the Pacific, 132, (1009), 034502",
+        "year": "2020",
+        "tags": [
+          "methods: data analysis",
+          "methods: statistical",
+          "open clusters and associations: general"
+        ],
+        "links": [
+          {
+            "label": "DOI",
+            "href": "https://doi.org/10.1088/1538-3873/ab694d"
+          },
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2020PASP..132c4502H"
+          }
+        ]
       }
     ]
   }
