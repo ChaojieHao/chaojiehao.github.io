@@ -3,7 +3,7 @@
     "description": "Copy and labels for the Home page."
   },
   "en": {
-    "heroIntro": "I am Alex Chen, a robotics Ph.D. student working on embodied AI systems that can perceive, plan, and recover reliably in the real world. This template is designed to help you present your research, publications, projects, and writing with minimal code edits.",
+    "heroIntro": "I am a postdoctoral researcher at the Center for Astronomy of Heidelberg University, working with Prof. Dr. Eva K. Grebel. My research focuses on the structure, dynamics, and evolution of star clusters and the Milky Way, based on multi-wavelength observations. Using high-precision astrometric data from Gaia, I have conducted systematic studies of several topics, including the discovery of new star clusters, their formation and internal rotation, the evolution of Galactic spiral structure traced by star clusters, and the properties of notable stars in star clusters, such as classical Cepheids and M giants. I also investigate the three-dimensional structure, kinematics, and evolution of star-forming regions. I have published more than 30 peer-reviewed papers, including 7 as first author.",
     "buttons": {
       "cv": "View CV",
       "publications": "View Publications",
@@ -25,7 +25,7 @@
     }
   },
   "zh": {
-    "heroIntro": "我是陈明远，一名从事具身智能方向研究的机器人博士生，关注自主系统在真实环境中的感知、规划与恢复能力。这个模板旨在帮助你用尽量少的代码修改，快速搭建展示研究、论文、项目与写作内容的个人主页。",
+    "heroIntro": "我目前是德国海德堡大学天文学中心的博士后研究员，合作导师为 Prof. Dr. Eva K. Grebel。我的研究主要基于多波段观测数据，研究星团和银河系的结构、动力学及演化。利用 Gaia 卫星的高精度天体测量数据，我系统地开展了多个方面的研究，包括新星团的发现、星团的形成和内部旋转、利用星团示踪银河系旋臂结构的演化，以及星团中特殊恒星（如经典造父变星和 M 型巨星）的性质研究。此外，我还研究恒星形成区的三维结构、运动学特征及其演化。目前已发表 30 余篇同行评审学术论文，其中包括 7 篇第一作者论文。",
     "buttons": {
       "cv": "查看简历",
       "publications": "浏览论文",
