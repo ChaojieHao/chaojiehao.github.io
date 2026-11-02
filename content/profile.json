@@ -28,9 +28,9 @@
       {
         "label": "ORCID",
         "href": "https://orcid.org/0000-0002-6820-198X"
-      }
+      },
       {
-        "label": "ADS",
+        "label": "NASA/ADS",
         "href": "https://ui.adsabs.harvard.edu/public-libraries/mBwpKhZkRE-A9cBfcbbnEw"
       }
     ],
@@ -51,6 +51,10 @@
       {
         "label": "ORCID",
         "href": "https://orcid.org/0000-0002-6820-198X"
+      },
+      {
+        "label": "NASA/ADS",
+        "href": "https://ui.adsabs.harvard.edu/public-libraries/mBwpKhZkRE-A9cBfcbbnEw"
       }
     ],
     "avatar": "/images/profile.jpg",
