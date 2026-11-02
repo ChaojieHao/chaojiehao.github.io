@@ -8,106 +8,106 @@
   "en": {
     "updates": [
       {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "Commit",
-        "title": "Implement responsive profile display in site shell",
+        "title": "Update profile.json",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/4b2730f805e6ed8c2b7b6e006ef3fbd5fdc2bc8c"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e97930882274c95281e865514bce99b9e6368a64"
       },
       {
-        "date": "2026-11-01",
-        "type": "Commit",
-        "title": "Update home-client.tsx",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/1adb3ca7e5d2ce68edaa69dc0aa70cc64d3eff46"
-      },
-      {
-        "date": "2026-11-01",
-        "type": "Commit",
-        "title": "Update home-client.tsx",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7aceb749132e4d3fbb7ece3f967270fe44fa0a26"
-      },
-      {
-        "date": "2026-11-01",
-        "type": "Commit",
-        "title": "Update home-client.tsx",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8497e979afc705e824a156f84624689d9a3e67cc"
-      },
-      {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "Commit",
         "title": "Add files via upload",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/571bbbcb2f115f02e1675b459a670df31b647b17"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/618471e408121b902cdb2c501cca7d26226d20f4"
       },
       {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "Commit",
-        "title": "Create .gitkeep",
+        "title": "Delete public/images/research/Stellar Dynamics.jpg",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ebece302ac9f1d62235ee85621d0a8f801956d1d"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2bef755e2c09c1e6d6da5ee6cdb4c32ca22cc62f"
       },
       {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "Commit",
-        "title": "Fix formatting in home-client.tsx",
+        "title": "Delete public/images/research/Star formation.jpg",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/46e2fb9fde58afece0d82602f0c96d54d0e55b01"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/225d890ffbfb4eb59fb370fd2585d278e61f9652"
+      },
+      {
+        "date": "2026-11-02",
+        "type": "Commit",
+        "title": "Delete public/images/research/Open Clusters.jpg",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7b9af8e44dc3943e6df8d82e975aa5fecf3eb042"
+      },
+      {
+        "date": "2026-11-02",
+        "type": "Commit",
+        "title": "Delete public/images/research/Milky Way.jpg",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/17092fe1c5cc52afdf5ece14305be72291b42701"
+      },
+      {
+        "date": "2026-11-02",
+        "type": "Commit",
+        "title": "Add new awards to awards.json",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8127d160afc2c5adf27aa5c719b3d77a3a927c40"
       }
     ]
   },
   "zh": {
     "updates": [
       {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "提交",
-        "title": "Implement responsive profile display in site shell",
+        "title": "Update profile.json",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/4b2730f805e6ed8c2b7b6e006ef3fbd5fdc2bc8c"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e97930882274c95281e865514bce99b9e6368a64"
       },
       {
-        "date": "2026-11-01",
-        "type": "提交",
-        "title": "Update home-client.tsx",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/1adb3ca7e5d2ce68edaa69dc0aa70cc64d3eff46"
-      },
-      {
-        "date": "2026-11-01",
-        "type": "提交",
-        "title": "Update home-client.tsx",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7aceb749132e4d3fbb7ece3f967270fe44fa0a26"
-      },
-      {
-        "date": "2026-11-01",
-        "type": "提交",
-        "title": "Update home-client.tsx",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8497e979afc705e824a156f84624689d9a3e67cc"
-      },
-      {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "提交",
         "title": "Add files via upload",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/571bbbcb2f115f02e1675b459a670df31b647b17"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/618471e408121b902cdb2c501cca7d26226d20f4"
       },
       {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "提交",
-        "title": "Create .gitkeep",
+        "title": "Delete public/images/research/Stellar Dynamics.jpg",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ebece302ac9f1d62235ee85621d0a8f801956d1d"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2bef755e2c09c1e6d6da5ee6cdb4c32ca22cc62f"
       },
       {
-        "date": "2026-11-01",
+        "date": "2026-11-02",
         "type": "提交",
-        "title": "Fix formatting in home-client.tsx",
+        "title": "Delete public/images/research/Star formation.jpg",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/46e2fb9fde58afece0d82602f0c96d54d0e55b01"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/225d890ffbfb4eb59fb370fd2585d278e61f9652"
+      },
+      {
+        "date": "2026-11-02",
+        "type": "提交",
+        "title": "Delete public/images/research/Open Clusters.jpg",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7b9af8e44dc3943e6df8d82e975aa5fecf3eb042"
+      },
+      {
+        "date": "2026-11-02",
+        "type": "提交",
+        "title": "Delete public/images/research/Milky Way.jpg",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/17092fe1c5cc52afdf5ece14305be72291b42701"
+      },
+      {
+        "date": "2026-11-02",
+        "type": "提交",
+        "title": "Add new awards to awards.json",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8127d160afc2c5adf27aa5c719b3d77a3a927c40"
       }
     ]
   }
