@@ -38,46 +38,50 @@ export function HomeClient({
   ? [
       {
         title: "疏散星团",
-        description: "研究疏散星团的形成、演化与动力学过程，以及其恒星族群和暗残骸。",
-        image: "/images/research/Open%20Clusters.jpg"
+        description: "研究疏散星团的形成、结构与运动，及其恒星族群和暗残骸。",
+        image: "/images/research/Open%20Clusters.jpg",
       },
       {
-        title: "银河系结构与动力学",
-        description: "研究银河系旋臂、银盘结构以及恒星族群的三维分布和运动。",
-        image: "/images/research/Milky%20Way%20Structure.jpg"
+        title: "银河系",
+        description: "研究银河系的旋臂、盘以及恒星族群的三维结构、运动和演化。",
+        image: "/images/research/Milky%20Way.jpg",
       },
       {
         title: "恒星动力学",
-        description: "研究星团的内部运动学、整体旋转、膨胀及其动力学演化。",
-        image: "/images/research/Stellar%20Dynamics.jpg"
+        description: "研究星团的内部运动学、旋转、膨胀及其动力学演化。",
+        image: "/images/research/Stellar%20Dynamics.jpg",
       },
       {
-        title: "银河系考古学",
-        description: "利用 Gaia 和大规模恒星巡天数据，探索银河系的形成与演化。",
-        image: "/images/research/Galactic%20Archaeology.jpg"
-      }
+        title: "恒星形成",
+        description: "研究恒星形成区的三维结构、运动与演化。",
+        image: "/images/research/Star%20formation.jpg",
+      },
     ]
   : [
       {
         title: "Open Clusters",
-        description: "Formation, evolution, and dynamics of open clusters, including their stellar populations and dark remnants.",
-        image: "/images/research/Open%20Clusters.jpg"
+        description:
+          "Formation, structure, and kinematics of open clusters, including their stellar populations and dark remnants.",
+        image: "/images/research/Open%20Clusters.jpg",
       },
       {
-        title: "Milky Way Structure and Dynamics",
-        description: "Galactic spiral arms, disk structure, and the three-dimensional distribution of stellar populations.",
-        image: "/images/research/Milky%20Way%20Structure.jpg"
+        title: "Milky Way",
+        description:
+          "Three-dimensional structure, kinematics, and evolution of Galactic spiral arms, disk, and stellar populations.",
+        image: "/images/research/Milky%20Way.jpg",
       },
       {
         title: "Stellar Dynamics",
-        description: "Internal kinematics, rotation, expansion, and dynamical evolution of star clusters.",
-        image: "/images/research/Stellar%20Dynamics.jpg"
+        description:
+          "Internal kinematics, rotation, expansion, and dynamical evolution of star clusters.",
+        image: "/images/research/Stellar%20Dynamics.jpg",
       },
       {
-        title: "Galactic Archaeology",
-        description: "Using Gaia data and large-scale stellar surveys to explore the formation and evolution of the Milky Way.",
-        image: "/images/research/Galactic%20Archaeology.jpg"
-      }
+        title: "Star Formation",
+        description:
+          "Three-dimensional structure, kinematics, and evolution of star-forming regions.",
+        image: "/images/research/Star%20formation.jpg",
+      },
     ];
 
   const highlightItems = [
@@ -171,13 +175,13 @@ export function HomeClient({
             key={item.title}
             className="overflow-hidden rounded-2xl border border-slate-200 bg-white/70 dark:border-slate-700 dark:bg-slate-900/40"
             >
-            <div className="relative aspect-square w-full overflow-hidden bg-slate-100 dark:bg-slate-800">
+            <div className="relative aspect-[16/9] w-full overflow-hidden">
               <Image
                 src={item.image}
                 alt={item.title}
                 fill
-                sizes="(max-width: 640px) 100vw, 50vw"
-                className="object-cover transition-transform duration-500 hover:scale-105"
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 />
             </div>
             <div className="p-5">
