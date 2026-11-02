@@ -14,23 +14,23 @@
   "en": {
     "awards": [
       {
-        "title": "Graduate Fellowship",
-        "issuer": "Example University",
-        "year": "2026"
-      },
-      {
-        "title": "Best Student Paper Finalist",
-        "issuer": "Example Robotics Symposium",
+        "title": "Second Prize of Jiangsu Provincial Natural Science Award (First Contributor)",
+        "issuer": "Jiangsu Provincial People's Government",
         "year": "2025"
       },
       {
-        "title": "Outstanding Undergraduate Thesis",
-        "issuer": "Example Institute of Technology",
+        "title": "Outstanding Doctoral Dissertation Award",
+        "issuer": "Chinese Academy of Sciences",
         "year": "2024"
       },
       {
-        "title": "National Scholarship",
-        "issuer": "Ministry of Education",
+        "title": "Special Prize of President Scholarship",
+        "issuer": "Chinese Academy of Sciences",
+        "year": "2023"
+      },
+      {
+        "title": "Outstanding Doctoral Dissertation Award",
+        "issuer": "University of Science and Technology of China",
         "year": "2023"
       }
     ]
@@ -38,23 +38,23 @@
   "zh": {
     "awards": [
       {
-        "title": "研究生奖学金",
-        "issuer": "示例大学",
-        "year": "2026"
-      },
-      {
-        "title": "最佳学生论文提名",
-        "issuer": "示例机器人研讨会",
+        "title": "江苏省自然科学二等奖（第一完成人）",
+        "issuer": "江苏省人民政府",
         "year": "2025"
       },
       {
-        "title": "优秀本科毕业论文",
-        "issuer": "示例理工学院",
+        "title": "优秀博士学位论文",
+        "issuer": "中国科学院",
         "year": "2024"
       },
       {
-        "title": "国家奖学金",
-        "issuer": "教育主管部门",
+        "title": "院长特别奖",
+        "issuer": "中国科学院",
+        "year": "2023"
+      },
+      {
+        "title": "优秀博士学位论文",
+        "issuer": "中国科学技术大学",
         "year": "2023"
       }
     ]
