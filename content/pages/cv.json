@@ -5,28 +5,26 @@
   "en": {
     "intro": {
       "title": "Curriculum Vitae",
-      "description": "Provide a downloadable PDF plus a web-readable overview. Replace the placeholder asset under /public/files.",
+      "description": "",
       "eyebrow": "Overview",
       "download": "Download PDF",
       "contactLabel": "Contact",
       "contactAction": "Reveal email",
       "locationLabel": "Location"
     },
+    "experience": { "title": "Work Experience", "eyebrow": "CV" },
     "education": { "title": "Education", "eyebrow": "CV" },
-    "experience": { "title": "Professional Experience", "eyebrow": "CV" },
     "honors": {
       "title": "Selected Honors",
       "eyebrow": "Recognition",
       "headers": ["Year", "Award", "Issuer"]
     },
     "skills": {
-      "title": "Skills & Coursework",
+      "title": "Conferences & Reports",
       "eyebrow": "CV",
-      "headers": ["Category", "Items"],
+      "headers": ["Themes", "Titles"],
       "rows": [
-        ["Programming", "Python, TypeScript, C++"],
-        ["Frameworks", "PyTorch, ROS 2, Next.js"],
-        ["Topics", "Robot Learning, Planning, Systems"]
+        ["Cluster", "Open cluster"]
       ]
     },
     "links": {
@@ -39,28 +37,26 @@
   "zh": {
     "intro": {
       "title": "个人简历",
-      "description": "提供 PDF 下载与网页概览视图。请将 /public/files 下的占位文件替换为你自己的简历。",
+      "description": "",
       "eyebrow": "概览",
       "download": "下载 PDF",
       "contactLabel": "联系邮箱",
       "contactAction": "点击显示邮箱",
       "locationLabel": "常驻城市"
     },
+    "experience": { "title": "工作经历", "eyebrow": "简历" },
     "education": { "title": "教育背景", "eyebrow": "简历" },
-    "experience": { "title": "实习 / 工作经历", "eyebrow": "简历" },
     "honors": {
       "title": "荣誉奖励",
       "eyebrow": "荣誉",
       "headers": ["年份", "奖项", "颁发机构"]
     },
     "skills": {
-      "title": "技能与课程",
+      "title": "会议与报告",
       "eyebrow": "简历",
-      "headers": ["类别", "内容"],
+      "headers": ["主题", "标题"],
       "rows": [
-        ["编程", "Python、TypeScript、C++"],
-        ["框架", "PyTorch、ROS 2、Next.js"],
-        ["方向", "机器人学习、规划、系统工程"]
+        ["星团", "疏散星团"]
       ]
     },
     "links": {
