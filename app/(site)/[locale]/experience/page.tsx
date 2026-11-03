@@ -1,8 +1,8 @@
+
 import { notFound } from "next/navigation";
 
 import { Section } from "@/components/section";
-import { Timeline } from "@/components/timeline";
-import { getExperiencePageCopy, getTimelineContent } from "@/lib/content";
+import { getExperiencePageCopy, getFundingsContent } from "@/lib/content";
 import { normalizeLocale } from "@/lib/locale";
 
 type PageProps = {
@@ -12,30 +12,68 @@ type PageProps = {
 export default async function ExperiencePage({ params }: PageProps) {
   const resolvedParams = await params;
   const locale = normalizeLocale(resolvedParams.locale);
+
   if (!locale) {
     notFound();
   }
 
-  const { experience, education } = getTimelineContent()[locale];
+  const entries = getFundingsContent()[locale].entries;
   const copy = getExperiencePageCopy()[locale];
 
-  return (
-    <div className="space-y-16">
-      <Section
-        title={copy.experience.title}
-        description={copy.experience.description}
-        eyebrow={copy.experience.eyebrow}
-      >
-        <Timeline items={experience} />
-      </Section>
+  const labels =
+    locale === "zh"
+      ? {
+          role: "角色",
+          category: "项目类别",
+          source: "资助机构",
+          year: "获批年份",
+          projectId: "项目编号"
+        }
+      : {
+          role: "Role",
+          category: "Funding Category",
+          source: "Funding Source",
+          year: "Award Year",
+          projectId: "Grant No."
+        };
 
-      <Section
-        title={copy.education.title}
-        description={copy.education.description}
-        eyebrow={copy.education.eyebrow}
-      >
-        <Timeline items={education} />
-      </Section>
-    </div>
+  return (
+    <Section
+      title={copy.experience.title}
+      description={copy.experience.description}
+      eyebrow={copy.experience.eyebrow}
+    >
+      <div className="space-y-6">
+        {entries.map((entry) => (
+          <article
+            key={entry.projectId}
+            className="rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-[0_24px_60px_-45px_rgba(15,23,42,0.45)] dark:border-slate-800 dark:bg-slate-900/70"
+          >
+            <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
+              {entry.title}
+            </h3>
+
+            <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
+              {[
+                [labels.role, entry.role],
+                [labels.category, entry.category],
+                [labels.source, entry.source],
+                ...(entry.year ? [[labels.year, entry.year]] : []),
+                [labels.projectId, entry.projectId]
+              ].map(([label, value]) => (
+                <div key={label}>
+                  <dt className="text-slate-500 dark:text-slate-400">
+                    {label}
+                  </dt>
+                  <dd className="mt-1 font-medium text-slate-800 dark:text-slate-200">
+                    {value}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </article>
+        ))}
+      </div>
+    </Section>
   );
 }
