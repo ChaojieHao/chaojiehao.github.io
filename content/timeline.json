@@ -15,41 +15,38 @@
   "en": {
     "education": [
       {
-        "title": "Ph.D. in Robotics · Example University",
-        "period": "2024 – Present",
-        "location": "Shanghai, China",
+        "title": "Ph.D. in Astrophysics · University of Science and Technology of China",
+        "period": "2018 – 2023",
+        "location": "Hefei, China",
         "details": [
-          "Research focus: embodied AI, robot learning, and real-world evaluation.",
-          "Coursework: advanced robotics, probabilistic inference, reinforcement learning."
+          "PhD Thesis: Open clusters in the Milky Way and their revealed evolution of the spiral arm structure.",
+          "Supervisors: Prof. Ye Xu; Prof. Zhenyu Wu."
         ]
       },
       {
-        "title": "B.Eng. in Automation · Example Institute of Technology",
-        "period": "2020 – 2024",
-        "location": "Hangzhou, China",
+        "title": "Bachelor of Engineering · Zhengzhou University",
+        "period": "2014 – 2018",
+        "location": "Zhengzhou, China",
         "details": [
-          "Capstone project on adaptive navigation in dynamic indoor environments.",
-          "Built a foundation in control, embedded systems, and computer vision."
+          "Major: Electronic Information Science and Technology."
         ]
       }
     ],
     "experience": [
       {
-        "title": "Robotics Research Intern · Example Robotics Lab",
-        "period": "2025 Summer",
-        "location": "Shenzhen, China",
+        "title": "Postdoc. · Center for Astronomy of Heidelberg University",
+        "period": "2026 – Present",
+        "location": "Heidelberg, Germany",
         "details": [
-          "Evaluated recovery policies for manipulation under sensor drift.",
-          "Contributed benchmarking tools used across several internal demos."
+          "Co-supervisor: Prof. Dr. Eva K. Grebel."
         ]
       },
       {
-        "title": "Software Engineering Intern · Example AI Company",
-        "period": "2024 Summer",
-        "location": "Shanghai, China",
+        "title": "Postdoc. · Purple Mountain Observatory, Chinese Academy of Sciences",
+        "period": "2023 – 2026",
+        "location": "Nanjing, China",
         "details": [
-          "Improved experiment tracking flows and deployment automation.",
-          "Reduced repetitive manual setup for model evaluation pipelines."
+          "Co-supervisor: Prof. Ye Xu."
         ]
       }
     ]
@@ -57,41 +54,38 @@
   "zh": {
     "education": [
       {
-        "title": "示例大学 · 机器人学博士",
-        "period": "2024 – 至今",
-        "location": "中国·上海",
+        "title": "中国科学技术大学 · 天体物理学博士",
+        "period": "2018 – 2023",
+        "location": "中国·合肥",
         "details": [
-          "研究方向：具身智能、机器人学习与真实环境评测。",
-          "主修课程：高级机器人学、概率推断、强化学习。"
+          "博士学位论文：银河系中的疏散星团及其揭示的旋臂结构演化。",
+          "导师：徐烨研究员、武振宇研究员。"
         ]
       },
       {
-        "title": "示例理工学院 · 自动化学士",
-        "period": "2020 – 2024",
-        "location": "中国·杭州",
+        "title": "郑州大学 · 工学学士",
+        "period": "2014 – 2018",
+        "location": "中国·郑州",
         "details": [
-          "毕业设计聚焦动态室内环境中的自适应导航。",
-          "系统学习控制、嵌入式系统与计算机视觉。"
+          "专业：电子信息科学与技术。"
         ]
       }
     ],
     "experience": [
       {
-        "title": "示例机器人实验室 · 机器人研究实习生",
-        "period": "2025 暑期",
-        "location": "中国·深圳",
+        "title": "博士后 · 海德堡大学天文学中心",
+        "period": "2026 – 至今",
+        "location": "德国·海德堡",
         "details": [
-          "评估感知漂移条件下的移动操控恢复策略。",
-          "开发多组内部演示共用的评测工具。"
+          "合作导师：Prof. Dr. Eva K. Grebel。"
         ]
       },
       {
-        "title": "示例 AI 公司 · 软件工程实习生",
-        "period": "2024 暑期",
-        "location": "中国·上海",
+        "title": "博士后 · 中国科学院紫金山天文台",
+        "period": "2023 – 2026",
+        "location": "中国·南京",
         "details": [
-          "改进实验追踪流程与部署自动化。",
-          "降低模型评测流水线的重复手工配置成本。"
+          "合作导师：徐烨研究员。"
         ]
       }
     ]
