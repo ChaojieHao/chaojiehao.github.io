@@ -297,9 +297,4 @@ export type ExperiencePageCopy = Localized<{
     description: string;
     eyebrow: string;
   };
-  education: {
-    title: string;
-    description: string;
-    eyebrow: string;
-  };
 }>;
