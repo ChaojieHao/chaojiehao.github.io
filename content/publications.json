@@ -5,7 +5,7 @@
       "entries": "Array of publication items",
       "PublicationItem": {
         "id": "BibTeX identifier",
-        "type": "C|J|P|S",
+        "type": "C|J|B|S",
         "title": "Title string",
         "authors": "Author list, highlight yourself with * if needed",
         "venue": "Journal and bibliographic information",
