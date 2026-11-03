@@ -107,6 +107,19 @@ export type TimelineContent = Localized<{
   experience: TimelineEntry[];
 }>;
 
+export type FundingEntry = {
+  title: string;
+  role: string;
+  category: string;
+  source: string;
+  year: string;
+  projectId: string;
+};
+
+export type FundingsContent = Localized<{
+  entries: FundingEntry[];
+}>;
+
 export type PublicationsContent = Localized<{
   entries: PublicationEntry[];
 }>;
