@@ -210,6 +210,7 @@ export type PublicationsPageCopy = Localized<{
     J: string;
     B: string;
     S: string;
+  "First Author": string;
   };
   empty: string;
 }>;
