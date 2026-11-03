@@ -22,7 +22,7 @@
         "id": "2026ApJ..1009L..33L",
         "type": "J",
         "title": "Large-scale Spiral Structure of the Milky Way Traced by Young Classical Cepheids",
-        "authors": "Z. H. Lin, Chaojie Hao*, D. J. Liu, Y. J. Li, J. J. Li, Y. W. Dong, Y. X. He, Jarken Esimbek",
+        "authors": "Z. H. Lin, Chaojie Hao, D. J. Liu, Y. J. Li, J. J. Li, Y. W. Dong, Y. X. He, Jarken Esimbek",
         "venue": "The Astrophysical Journall, 1009, (2), L33",
         "year": "2026",
         "tags": [
@@ -50,7 +50,7 @@
         "id": "2026ApJ..1009..143D",
         "type": "J",
         "title": "Star Formation in the H II Region Sh 2-205: 3D Morphology and Kinematics from Young Stars and Molecular Gas",
-        "authors": "Yiwei Dong, Chaojie Hao*, Ye Xu, Yingjie Li, Zehao Lin, Dejian Liu, Yan Sun, Longhui Yang",
+        "authors": "Yiwei Dong, Chaojie Hao, Ye Xu, Yingjie Li, Zehao Lin, Dejian Liu, Yan Sun, Longhui Yang",
         "venue": "The Astrophysical Journal, 1009, (2), 143",
         "year": "2026",
         "tags": [
@@ -104,7 +104,7 @@
         "id": "2025ApJS..276...63T",
         "type": "J",
         "title": "Calibrating the Color-Magnitude Relation of M Giants by Using Open Clusters",
-        "authors": "X. Y. Tang, Chaojie Hao*, J. Li, Z. Z. Yan, Y. Xu, J. Zhong, Z. H. Lin, Y. J. Li, D. J. Liu, L. F. Ding, X. F. Long",
+        "authors": "X. Y. Tang, Chaojie Hao, J. Li, Z. Z. Yan, Y. Xu, J. Zhong, Z. H. Lin, Y. J. Li, D. J. Liu, L. F. Ding, X. F. Long",
         "venue": "The Astrophysical Journals, 276, (2), 63",
         "year": "2025",
         "tags": [
@@ -132,7 +132,7 @@
         "id": "2025ApJS..276...22Y",
         "type": "J",
         "title": "Kinematics of Young Stellar Objects under Various Stellar Feedback",
-        "authors": "Longhui Yang, Dejian Liu, Chaojie Hao*, Zehao Lin, YingJie Li, Yiwei Dong, Zu-Jia Lu, En-Wei Liang, Y. Xu",
+        "authors": "Longhui Yang, Dejian Liu, Chaojie Hao, Zehao Lin, YingJie Li, Yiwei Dong, Zu-Jia Lu, En-Wei Liang, Y. Xu",
         "venue": "The Astrophysical Journals, 276, (1), 22",
         "year": "2025",
         "tags": [
@@ -161,7 +161,7 @@
         "id": "2024AJ....168..264W",
         "type": "J",
         "title": "A New Statistical Analysis of the Morphology of Spiral Galaxies",
-        "authors": "Junye Wei, Ye Xu, Zehao Lin, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "authors": "Junye Wei, Ye Xu, Zehao Lin, Chaojie Hao, Yingjie Li, Dejian Liu, Shuaibo Bian",
         "venue": "The Astronomical Journal, 168, (6), 264",
         "year": "2024",
         "tags": [
@@ -190,7 +190,7 @@
         "id": "2024AJ....168..225D",
         "type": "J",
         "title": "3D Morphology and Motions of the Canis Major Region from Gaia DR3",
-        "authors": "Yiwei Dong, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Yan Sun, Zehao Lin",
+        "authors": "Yiwei Dong, Ye Xu, Chaojie Hao, Yingjie Li, Dejian Liu, Yan Sun, Zehao Lin",
         "venue": "The Astronomical Journal, 168, (5), 225",
         "year": "2024",
         "tags": [
@@ -218,7 +218,7 @@
         "id": "2024RAA....24g2001L",
         "type": "J",
         "title": "VLBI with SKA: Possible Arrays and Astrometric Science",
-        "authors": "Yingjie Li, Ye Xu, Jingjing Li, Shuaibo Bian, Zehao Lin, Chaojie Hao*, Dejian Liu",
+        "authors": "Yingjie Li, Ye Xu, Jingjing Li, Shuaibo Bian, Zehao Lin, Chaojie Hao, Dejian Liu",
         "venue": "Research in Astronomy and Astrophysics, 24, (7), 072001",
         "year": "2024",
         "tags": [
@@ -254,7 +254,7 @@
         "id": "2024AJ....168...34W",
         "type": "J",
         "title": "Search for Classical Cepheids in Galactic Open Clusters and Calibration of the Period-Wesenheit-Metallicity Relation in the Gaia Bands",
-        "authors": "Huajian Wang, Ye Xu, Zehao Lin, Chaojie Hao*, Dejian Liu, Yingjie Li",
+        "authors": "Huajian Wang, Ye Xu, Zehao Lin, Chaojie Hao, Dejian Liu, Yingjie Li",
         "venue": "The Astronomical Journal, 168, (1), 34",
         "year": "2024",
         "tags": [
@@ -283,7 +283,7 @@
         "id": "2024AJ....168...25G",
         "type": "J",
         "title": "Evolution of the Local Spiral Structure Revealed by OB-type Stars in Gaia DR3",
-        "authors": "Q. A. Ge, J. J. Li, Chaojie Hao*, Z. H. Lin, L. G. Hou, D. J. Liu, Y. J. Li, S. B. Bian",
+        "authors": "Q. A. Ge, J. J. Li, Chaojie Hao, Z. H. Lin, L. G. Hou, D. J. Liu, Y. J. Li, S. B. Bian",
         "venue": "The Astronomical Journal, 168, (1), 25",
         "year": "2024",
         "tags": [
@@ -307,7 +307,7 @@
         "id": "2024ApJ...964...93L",
         "type": "J",
         "title": "Molecular Bubble and Outflow in S Mon Revealed by Multiband Data Sets",
-        "authors": "Dejian Liu, Ye Xu, YingJie Li, Zehao Lin, Chaojie Hao*, WenJin Yang, Jingjing Li, Xinrong Liu, Yiwei Dong, Shuaibo Bian, Deyun Kong",
+        "authors": "Dejian Liu, Ye Xu, YingJie Li, Zehao Lin, Chaojie Hao, WenJin Yang, Jingjing Li, Xinrong Liu, Yiwei Dong, Shuaibo Bian, Deyun Kong",
         "venue": "The Astrophysical Journal, 964, (1), 93",
         "year": "2024",
         "tags": [
@@ -335,7 +335,7 @@
         "id": "2024ApJ...963..153H",
         "type": "J",
         "title": "Probing the Nature of Rotation in the Pleiades, Alpha Persei, and Hyades Clusters",
-        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, Z. H. Lin, Y. J. Li, Y. W. Dong, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, L. G. Hou, S. B. Bian, Z. H. Lin, Y. J. Li, Y. W. Dong, D. J. Liu",
         "venue": "The Astrophysical Journal, 963, (2), 153",
         "year": "2024",
         "tags": [
@@ -363,7 +363,7 @@
         "id": "2023ApJS..268...46L",
         "type": "J",
         "title": "Kinematics of the Local Spiral Structure Revealed by Young Stars in Gaia DR3",
-        "authors": "Dejian Liu, Ye Xu, Chaojie Hao*, Shuaibo Bian, Zehao Lin, Yingjie Li, Jingjing Li",
+        "authors": "Dejian Liu, Ye Xu, Chaojie Hao, Shuaibo Bian, Zehao Lin, Yingjie Li, Jingjing Li",
         "venue": "The Astrophysical Journals, 268, (2), 46",
         "year": "2023",
         "tags": [
@@ -391,7 +391,7 @@
         "id": "2023ApJS..268....1D",
         "type": "J",
         "title": "Distributions and Physical Properties of Molecular Clouds in the Third Galactic Quadrant: l = [219.75, 229.75] and b = [-5.25, 5.25]",
-        "authors": "Yiwei Dong, Yan Sun, Ye Xu, Zehao Lin, Shuaibo Bian, Chaojie Hao*, Dejian Liu, Yingjie Li, Ji Yang, Yang Su, Xin Zhou, Shaobo Zhang, Qing-Zeng Yan, Zhiwei Chen",
+        "authors": "Yiwei Dong, Yan Sun, Ye Xu, Zehao Lin, Shuaibo Bian, Chaojie Hao, Dejian Liu, Yingjie Li, Ji Yang, Yang Su, Xin Zhou, Shaobo Zhang, Qing-Zeng Yan, Zhiwei Chen",
         "venue": "The Astrophysical Journals, 268, (1), 1",
         "year": "2023",
         "tags": [
@@ -420,7 +420,7 @@
         "id": "2023RAA....23g5023H",
         "type": "J",
         "title": "Unveiling the Initial Conditions of Open Star Cluster Formation",
-        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, Z. H. Lin, Y. J. Li",
+        "authors": "Chaojie Hao, Y. Xu, L. G. Hou, Z. H. Lin, Y. J. Li",
         "venue": "Research in Astronomy and Astrophysics, 23, (7), 075023",
         "year": "2023",
         "tags": [
@@ -449,7 +449,7 @@
         "id": "2023ApJ...952...64L",
         "type": "J",
         "title": "Massive Hypervelocity Runaway Stars in the Large Magellanic Cloud",
-        "authors": "Zehao Lin, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "authors": "Zehao Lin, Ye Xu, Chaojie Hao, Yingjie Li, Dejian Liu, Shuaibo Bian",
         "venue": "The Astrophysical Journal, 952, (1), 64",
         "year": "2023",
         "tags": [
@@ -473,7 +473,7 @@
         "id": "2023ApJ...947...54X",
         "type": "J",
         "title": "What Does the Milky Way Look Like?",
-        "authors": "Y. Xu, Chaojie Hao*, D. J. Liu, Z. H. Lin, S. B. Bian, L. G. Hou, J. J. Li, Y. J. Li",
+        "authors": "Y. Xu, Chaojie Hao, D. J. Liu, Z. H. Lin, S. B. Bian, L. G. Hou, J. J. Li, Y. J. Li",
         "venue": "The Astrophysical Journal, 947, (2), 54",
         "year": "2023",
         "tags": [
@@ -501,7 +501,7 @@
         "id": "2022A&A...668A..13H",
         "type": "J",
         "title": "Open clusters housing classical Cepheids in Gaia DR3",
-        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, S. B. Bian, Y. J. Li, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, Z. Y. Wu, Z. H. Lin, S. B. Bian, Y. J. Li, D. J. Liu",
         "venue": "Astronomy & Astrophysics, 668, A13",
         "year": "2022",
         "tags": [
@@ -531,7 +531,7 @@
         "id": "2022ApJ...938..100H",
         "type": "J",
         "title": "On the Nature of Rotation in the Praesepe Cluster",
-        "authors": "Chaojie Hao*, Y. Xu, S. B. Bian, L. G. Hou, Z. H. Lin, Y. J. Li, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, S. B. Bian, L. G. Hou, Z. H. Lin, Y. J. Li, D. J. Liu",
         "venue": "The Astrophysical Journal, 938, (2), 100",
         "year": "2022",
         "tags": [
@@ -592,7 +592,7 @@
         "id": "2022ApJ...938...33L",
         "type": "J",
         "title": "Calibrating the Cepheid Period-Wesenheit Relation in the Gaia Bands Using Galactic Open-cluster Cepheids",
-        "authors": "Zehao lin, Ye Xu, Chaojie Hao*, Dejian Liu, Yingjie Li, Shuaibo Bian",
+        "authors": "Zehao lin, Ye Xu, Chaojie Hao, Dejian Liu, Yingjie Li, Shuaibo Bian",
         "venue": "The Astrophysical Journal, 938, (1), 33",
         "year": "2022",
         "tags": [
@@ -649,7 +649,7 @@
         "id": "2022ApJ...935..153L",
         "type": "J",
         "title": "Neutral Stellar Winds toward the High-mass Star-forming Region G176.51+00.20",
-        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao, Xiuhui Chen",
         "venue": "The Astrophysical Journal, 935, (2), 153",
         "year": "2022",
         "tags": [
@@ -680,7 +680,7 @@
         "id": "2022ApJ...933L..26L",
         "type": "J",
         "title": "H I Narrow-line Self-absorptions toward the High-mass Star-forming Region G176.51+00.20",
-        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao, Xiuhui Chen",
         "venue": "The Astrophysical Journall, 933, (2), L26",
         "year": "2022",
         "tags": [
@@ -711,7 +711,7 @@
         "id": "2022ApJ...931...72L",
         "type": "J",
         "title": "Local Spiral Structure Traced by Red Clump Stars",
-        "authors": "Zehao Lin, Ye Xu, Ligang Hou, Dejian Liu, Yingjie Li, Chaojie Hao*, Jingjing Li, Shuaibo Bian",
+        "authors": "Zehao Lin, Ye Xu, Ligang Hou, Dejian Liu, Yingjie Li, Chaojie Hao, Jingjing Li, Shuaibo Bian",
         "venue": "The Astrophysical Journal, 931, (1), 72",
         "year": "2022",
         "tags": [
@@ -739,7 +739,7 @@
         "id": "2022A&A...660A...4H",
         "type": "J",
         "title": "Newly detected open clusters in the Galactic disk using Gaia EDR3",
-        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, D. J. Liu, Y. J. Li",
+        "authors": "Chaojie Hao, Y. Xu, Z. Y. Wu, Z. H. Lin, D. J. Liu, Y. J. Li",
         "venue": "Astronomy & Astrophysics, 660, A4",
         "year": "2022",
         "tags": [
@@ -767,7 +767,7 @@
         "id": "2022AJ....163...54B",
         "type": "J",
         "title": "Parallax of Star-forming Region G027.22+0.14",
-        "authors": "S. B. Bian, Y. Xu, J. J. Li, Y. W. Wu, B. Zhang, X. Chen, Y. J. Li, Z. H. Lin, Chaojie Hao*, D. J. Liu",
+        "authors": "S. B. Bian, Y. Xu, J. J. Li, Y. W. Wu, B. Zhang, X. Chen, Y. J. Li, Z. H. Lin, Chaojie Hao, D. J. Liu",
         "venue": "The Astronomical Journal, 163, (2), 54",
         "year": "2022",
         "tags": [
@@ -791,7 +791,7 @@
         "id": "2022ApJ...925...47L",
         "type": "J",
         "title": "Light Deflection under the Gravitational Field of Jupiter-Testing General Relativity",
-        "authors": "Yingjie Li, Ye Xu, JingJing Li, Yuanwei Wu, Shaibo Bian, ZeHao Lin, WenJin Yang, Chaojie Hao*, DeJian Liu",
+        "authors": "Yingjie Li, Ye Xu, JingJing Li, Yuanwei Wu, Shaibo Bian, ZeHao Lin, WenJin Yang, Chaojie Hao, DeJian Liu",
         "venue": "The Astrophysical Journal, 925, (1), 47",
         "year": "2022",
         "tags": [
@@ -822,7 +822,7 @@
         "id": "2021A&A...652A.102H",
         "type": "J",
         "title": "Evolution of the local spiral structure of the Milky Way revealed by open clusters",
-        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, J. J. Li, Z. Y. Wu, Z. H. He, Y. J. Li, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, L. G. Hou, S. B. Bian, J. J. Li, Z. Y. Wu, Z. H. He, Y. J. Li, D. J. Liu",
         "venue": "Astronomy & Astrophysics, 652, A102",
         "year": "2021",
         "tags": [
@@ -851,7 +851,7 @@
         "id": "2021RAA....21...93H",
         "type": "J",
         "title": "A catalogue of 74 new open clusters found in Gaia Data-Release 2",
-        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao*, Zhen-Yu Wu, Jing-Jing Li",
+        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao, Zhen-Yu Wu, Jing-Jing Li",
         "venue": "Research in Astronomy and Astrophysics, 21, (4), 093",
         "year": "2021",
         "tags": [
@@ -880,7 +880,7 @@
         "id": "2021ApJS..253...15L",
         "type": "J",
         "title": "High-sensitivity Millimeter Imaging of Molecular Outflows in Nine Nearby High-mass Star-forming Regions",
-        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao*, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
         "venue": "The Astrophysical Journals, 253, (1), 15",
         "year": "2021",
         "tags": [
@@ -908,7 +908,7 @@
         "id": "2021A&A...645L...8X",
         "type": "J",
         "title": "Local spiral structure based on the Gaia EDR3 parallaxes",
-        "authors": "Y. Xu, L. G. Hou, S. B. Bian, Chaojie Hao*, D. J. Liu, J. J. Li, Y. J. Li",
+        "authors": "Y. Xu, L. G. Hou, S. B. Bian, Chaojie Hao, D. J. Liu, J. J. Li, Y. J. Li",
         "venue": "Astronomy & Astrophysics, 645, L8",
         "year": "2021",
         "tags": [
@@ -938,7 +938,7 @@
         "id": "2020PASP..132c4502H",
         "type": "J",
         "title": "Sixteen Open Clusters Discovered with Sample-based Clustering Search of Gaia DR2",
-        "authors": "Chaojie Hao*, Ye Xu, ZhenYu Wu, ZhiHong He, ShuaiBo Bian",
+        "authors": "Chaojie Hao, Ye Xu, ZhenYu Wu, ZhiHong He, ShuaiBo Bian",
         "venue": "Publications of the Astronomical Society of the Pacific, 132, (1009), 034502",
         "year": "2020",
         "tags": [
@@ -965,7 +965,7 @@
         "id": "2026ApJ..1009L..33L",
         "type": "J",
         "title": "Large-scale Spiral Structure of the Milky Way Traced by Young Classical Cepheids",
-        "authors": "Z. H. Lin, Chaojie Hao*, D. J. Liu, Y. J. Li, J. J. Li, Y. W. Dong, Y. X. He, Jarken Esimbek",
+        "authors": "Z. H. Lin, Chaojie Hao, D. J. Liu, Y. J. Li, J. J. Li, Y. W. Dong, Y. X. He, Jarken Esimbek",
         "venue": "The Astrophysical Journall, 1009, (2), L33",
         "year": "2026",
         "tags": [
@@ -993,7 +993,7 @@
         "id": "2026ApJ..1009..143D",
         "type": "J",
         "title": "Star Formation in the H II Region Sh 2-205: 3D Morphology and Kinematics from Young Stars and Molecular Gas",
-        "authors": "Yiwei Dong, Chaojie Hao*, Ye Xu, Yingjie Li, Zehao Lin, Dejian Liu, Yan Sun, Longhui Yang",
+        "authors": "Yiwei Dong, Chaojie Hao, Ye Xu, Yingjie Li, Zehao Lin, Dejian Liu, Yan Sun, Longhui Yang",
         "venue": "The Astrophysical Journal, 1009, (2), 143",
         "year": "2026",
         "tags": [
@@ -1047,7 +1047,7 @@
         "id": "2025ApJS..276...63T",
         "type": "J",
         "title": "Calibrating the Color-Magnitude Relation of M Giants by Using Open Clusters",
-        "authors": "X. Y. Tang, Chaojie Hao*, J. Li, Z. Z. Yan, Y. Xu, J. Zhong, Z. H. Lin, Y. J. Li, D. J. Liu, L. F. Ding, X. F. Long",
+        "authors": "X. Y. Tang, Chaojie Hao, J. Li, Z. Z. Yan, Y. Xu, J. Zhong, Z. H. Lin, Y. J. Li, D. J. Liu, L. F. Ding, X. F. Long",
         "venue": "The Astrophysical Journals, 276, (2), 63",
         "year": "2025",
         "tags": [
@@ -1075,7 +1075,7 @@
         "id": "2025ApJS..276...22Y",
         "type": "J",
         "title": "Kinematics of Young Stellar Objects under Various Stellar Feedback",
-        "authors": "Longhui Yang, Dejian Liu, Chaojie Hao*, Zehao Lin, YingJie Li, Yiwei Dong, Zu-Jia Lu, En-Wei Liang, Y. Xu",
+        "authors": "Longhui Yang, Dejian Liu, Chaojie Hao, Zehao Lin, YingJie Li, Yiwei Dong, Zu-Jia Lu, En-Wei Liang, Y. Xu",
         "venue": "The Astrophysical Journals, 276, (1), 22",
         "year": "2025",
         "tags": [
@@ -1104,7 +1104,7 @@
         "id": "2024AJ....168..264W",
         "type": "J",
         "title": "A New Statistical Analysis of the Morphology of Spiral Galaxies",
-        "authors": "Junye Wei, Ye Xu, Zehao Lin, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "authors": "Junye Wei, Ye Xu, Zehao Lin, Chaojie Hao, Yingjie Li, Dejian Liu, Shuaibo Bian",
         "venue": "The Astronomical Journal, 168, (6), 264",
         "year": "2024",
         "tags": [
@@ -1133,7 +1133,7 @@
         "id": "2024AJ....168..225D",
         "type": "J",
         "title": "3D Morphology and Motions of the Canis Major Region from Gaia DR3",
-        "authors": "Yiwei Dong, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Yan Sun, Zehao Lin",
+        "authors": "Yiwei Dong, Ye Xu, Chaojie Hao, Yingjie Li, Dejian Liu, Yan Sun, Zehao Lin",
         "venue": "The Astronomical Journal, 168, (5), 225",
         "year": "2024",
         "tags": [
@@ -1161,7 +1161,7 @@
         "id": "2024RAA....24g2001L",
         "type": "J",
         "title": "VLBI with SKA: Possible Arrays and Astrometric Science",
-        "authors": "Yingjie Li, Ye Xu, Jingjing Li, Shuaibo Bian, Zehao Lin, Chaojie Hao*, Dejian Liu",
+        "authors": "Yingjie Li, Ye Xu, Jingjing Li, Shuaibo Bian, Zehao Lin, Chaojie Hao, Dejian Liu",
         "venue": "Research in Astronomy and Astrophysics, 24, (7), 072001",
         "year": "2024",
         "tags": [
@@ -1197,7 +1197,7 @@
         "id": "2024AJ....168...34W",
         "type": "J",
         "title": "Search for Classical Cepheids in Galactic Open Clusters and Calibration of the Period-Wesenheit-Metallicity Relation in the Gaia Bands",
-        "authors": "Huajian Wang, Ye Xu, Zehao Lin, Chaojie Hao*, Dejian Liu, Yingjie Li",
+        "authors": "Huajian Wang, Ye Xu, Zehao Lin, Chaojie Hao, Dejian Liu, Yingjie Li",
         "venue": "The Astronomical Journal, 168, (1), 34",
         "year": "2024",
         "tags": [
@@ -1226,7 +1226,7 @@
         "id": "2024AJ....168...25G",
         "type": "J",
         "title": "Evolution of the Local Spiral Structure Revealed by OB-type Stars in Gaia DR3",
-        "authors": "Q. A. Ge, J. J. Li, Chaojie Hao*, Z. H. Lin, L. G. Hou, D. J. Liu, Y. J. Li, S. B. Bian",
+        "authors": "Q. A. Ge, J. J. Li, Chaojie Hao, Z. H. Lin, L. G. Hou, D. J. Liu, Y. J. Li, S. B. Bian",
         "venue": "The Astronomical Journal, 168, (1), 25",
         "year": "2024",
         "tags": [
@@ -1250,7 +1250,7 @@
         "id": "2024ApJ...964...93L",
         "type": "J",
         "title": "Molecular Bubble and Outflow in S Mon Revealed by Multiband Data Sets",
-        "authors": "Dejian Liu, Ye Xu, YingJie Li, Zehao Lin, Chaojie Hao*, WenJin Yang, Jingjing Li, Xinrong Liu, Yiwei Dong, Shuaibo Bian, Deyun Kong",
+        "authors": "Dejian Liu, Ye Xu, YingJie Li, Zehao Lin, Chaojie Hao, WenJin Yang, Jingjing Li, Xinrong Liu, Yiwei Dong, Shuaibo Bian, Deyun Kong",
         "venue": "The Astrophysical Journal, 964, (1), 93",
         "year": "2024",
         "tags": [
@@ -1278,7 +1278,7 @@
         "id": "2024ApJ...963..153H",
         "type": "J",
         "title": "Probing the Nature of Rotation in the Pleiades, Alpha Persei, and Hyades Clusters",
-        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, Z. H. Lin, Y. J. Li, Y. W. Dong, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, L. G. Hou, S. B. Bian, Z. H. Lin, Y. J. Li, Y. W. Dong, D. J. Liu",
         "venue": "The Astrophysical Journal, 963, (2), 153",
         "year": "2024",
         "tags": [
@@ -1306,7 +1306,7 @@
         "id": "2023ApJS..268...46L",
         "type": "J",
         "title": "Kinematics of the Local Spiral Structure Revealed by Young Stars in Gaia DR3",
-        "authors": "Dejian Liu, Ye Xu, Chaojie Hao*, Shuaibo Bian, Zehao Lin, Yingjie Li, Jingjing Li",
+        "authors": "Dejian Liu, Ye Xu, Chaojie Hao, Shuaibo Bian, Zehao Lin, Yingjie Li, Jingjing Li",
         "venue": "The Astrophysical Journals, 268, (2), 46",
         "year": "2023",
         "tags": [
@@ -1334,7 +1334,7 @@
         "id": "2023ApJS..268....1D",
         "type": "J",
         "title": "Distributions and Physical Properties of Molecular Clouds in the Third Galactic Quadrant: l = [219.75, 229.75] and b = [-5.25, 5.25]",
-        "authors": "Yiwei Dong, Yan Sun, Ye Xu, Zehao Lin, Shuaibo Bian, Chaojie Hao*, Dejian Liu, Yingjie Li, Ji Yang, Yang Su, Xin Zhou, Shaobo Zhang, Qing-Zeng Yan, Zhiwei Chen",
+        "authors": "Yiwei Dong, Yan Sun, Ye Xu, Zehao Lin, Shuaibo Bian, Chaojie Hao, Dejian Liu, Yingjie Li, Ji Yang, Yang Su, Xin Zhou, Shaobo Zhang, Qing-Zeng Yan, Zhiwei Chen",
         "venue": "The Astrophysical Journals, 268, (1), 1",
         "year": "2023",
         "tags": [
@@ -1363,7 +1363,7 @@
         "id": "2023RAA....23g5023H",
         "type": "J",
         "title": "Unveiling the Initial Conditions of Open Star Cluster Formation",
-        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, Z. H. Lin, Y. J. Li",
+        "authors": "Chaojie Hao, Y. Xu, L. G. Hou, Z. H. Lin, Y. J. Li",
         "venue": "Research in Astronomy and Astrophysics, 23, (7), 075023",
         "year": "2023",
         "tags": [
@@ -1392,7 +1392,7 @@
         "id": "2023ApJ...952...64L",
         "type": "J",
         "title": "Massive Hypervelocity Runaway Stars in the Large Magellanic Cloud",
-        "authors": "Zehao Lin, Ye Xu, Chaojie Hao*, Yingjie Li, Dejian Liu, Shuaibo Bian",
+        "authors": "Zehao Lin, Ye Xu, Chaojie Hao, Yingjie Li, Dejian Liu, Shuaibo Bian",
         "venue": "The Astrophysical Journal, 952, (1), 64",
         "year": "2023",
         "tags": [
@@ -1416,7 +1416,7 @@
         "id": "2023ApJ...947...54X",
         "type": "J",
         "title": "What Does the Milky Way Look Like?",
-        "authors": "Y. Xu, Chaojie Hao*, D. J. Liu, Z. H. Lin, S. B. Bian, L. G. Hou, J. J. Li, Y. J. Li",
+        "authors": "Y. Xu, Chaojie Hao, D. J. Liu, Z. H. Lin, S. B. Bian, L. G. Hou, J. J. Li, Y. J. Li",
         "venue": "The Astrophysical Journal, 947, (2), 54",
         "year": "2023",
         "tags": [
@@ -1444,7 +1444,7 @@
         "id": "2022A&A...668A..13H",
         "type": "J",
         "title": "Open clusters housing classical Cepheids in Gaia DR3",
-        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, S. B. Bian, Y. J. Li, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, Z. Y. Wu, Z. H. Lin, S. B. Bian, Y. J. Li, D. J. Liu",
         "venue": "Astronomy & Astrophysics, 668, A13",
         "year": "2022",
         "tags": [
@@ -1474,7 +1474,7 @@
         "id": "2022ApJ...938..100H",
         "type": "J",
         "title": "On the Nature of Rotation in the Praesepe Cluster",
-        "authors": "Chaojie Hao*, Y. Xu, S. B. Bian, L. G. Hou, Z. H. Lin, Y. J. Li, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, S. B. Bian, L. G. Hou, Z. H. Lin, Y. J. Li, D. J. Liu",
         "venue": "The Astrophysical Journal, 938, (2), 100",
         "year": "2022",
         "tags": [
@@ -1535,7 +1535,7 @@
         "id": "2022ApJ...938...33L",
         "type": "J",
         "title": "Calibrating the Cepheid Period-Wesenheit Relation in the Gaia Bands Using Galactic Open-cluster Cepheids",
-        "authors": "Zehao lin, Ye Xu, Chaojie Hao*, Dejian Liu, Yingjie Li, Shuaibo Bian",
+        "authors": "Zehao lin, Ye Xu, Chaojie Hao, Dejian Liu, Yingjie Li, Shuaibo Bian",
         "venue": "The Astrophysical Journal, 938, (1), 33",
         "year": "2022",
         "tags": [
@@ -1592,7 +1592,7 @@
         "id": "2022ApJ...935..153L",
         "type": "J",
         "title": "Neutral Stellar Winds toward the High-mass Star-forming Region G176.51+00.20",
-        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao, Xiuhui Chen",
         "venue": "The Astrophysical Journal, 935, (2), 153",
         "year": "2022",
         "tags": [
@@ -1623,7 +1623,7 @@
         "id": "2022ApJ...933L..26L",
         "type": "J",
         "title": "H I Narrow-line Self-absorptions toward the High-mass Star-forming Region G176.51+00.20",
-        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao*, Xiuhui Chen",
+        "authors": "Yingjie Li, Ye Xu, Jin-Long Xu, Dejian Liu, Jingjing Li, Zehao Lin, Peng Jiang, Shuaibo Bian, Chaojie Hao, Xiuhui Chen",
         "venue": "The Astrophysical Journall, 933, (2), L26",
         "year": "2022",
         "tags": [
@@ -1654,7 +1654,7 @@
         "id": "2022ApJ...931...72L",
         "type": "J",
         "title": "Local Spiral Structure Traced by Red Clump Stars",
-        "authors": "Zehao Lin, Ye Xu, Ligang Hou, Dejian Liu, Yingjie Li, Chaojie Hao*, Jingjing Li, Shuaibo Bian",
+        "authors": "Zehao Lin, Ye Xu, Ligang Hou, Dejian Liu, Yingjie Li, Chaojie Hao, Jingjing Li, Shuaibo Bian",
         "venue": "The Astrophysical Journal, 931, (1), 72",
         "year": "2022",
         "tags": [
@@ -1682,7 +1682,7 @@
         "id": "2022A&A...660A...4H",
         "type": "J",
         "title": "Newly detected open clusters in the Galactic disk using Gaia EDR3",
-        "authors": "Chaojie Hao*, Y. Xu, Z. Y. Wu, Z. H. Lin, D. J. Liu, Y. J. Li",
+        "authors": "Chaojie Hao, Y. Xu, Z. Y. Wu, Z. H. Lin, D. J. Liu, Y. J. Li",
         "venue": "Astronomy & Astrophysics, 660, A4",
         "year": "2022",
         "tags": [
@@ -1710,7 +1710,7 @@
         "id": "2022AJ....163...54B",
         "type": "J",
         "title": "Parallax of Star-forming Region G027.22+0.14",
-        "authors": "S. B. Bian, Y. Xu, J. J. Li, Y. W. Wu, B. Zhang, X. Chen, Y. J. Li, Z. H. Lin, Chaojie Hao*, D. J. Liu",
+        "authors": "S. B. Bian, Y. Xu, J. J. Li, Y. W. Wu, B. Zhang, X. Chen, Y. J. Li, Z. H. Lin, Chaojie Hao, D. J. Liu",
         "venue": "The Astronomical Journal, 163, (2), 54",
         "year": "2022",
         "tags": [
@@ -1734,7 +1734,7 @@
         "id": "2022ApJ...925...47L",
         "type": "J",
         "title": "Light Deflection under the Gravitational Field of Jupiter-Testing General Relativity",
-        "authors": "Yingjie Li, Ye Xu, JingJing Li, Yuanwei Wu, Shaibo Bian, ZeHao Lin, WenJin Yang, Chaojie Hao*, DeJian Liu",
+        "authors": "Yingjie Li, Ye Xu, JingJing Li, Yuanwei Wu, Shaibo Bian, ZeHao Lin, WenJin Yang, Chaojie Hao, DeJian Liu",
         "venue": "The Astrophysical Journal, 925, (1), 47",
         "year": "2022",
         "tags": [
@@ -1765,7 +1765,7 @@
         "id": "2021A&A...652A.102H",
         "type": "J",
         "title": "Evolution of the local spiral structure of the Milky Way revealed by open clusters",
-        "authors": "Chaojie Hao*, Y. Xu, L. G. Hou, S. B. Bian, J. J. Li, Z. Y. Wu, Z. H. He, Y. J. Li, D. J. Liu",
+        "authors": "Chaojie Hao, Y. Xu, L. G. Hou, S. B. Bian, J. J. Li, Z. Y. Wu, Z. H. He, Y. J. Li, D. J. Liu",
         "venue": "Astronomy & Astrophysics, 652, A102",
         "year": "2021",
         "tags": [
@@ -1794,7 +1794,7 @@
         "id": "2021RAA....21...93H",
         "type": "J",
         "title": "A catalogue of 74 new open clusters found in Gaia Data-Release 2",
-        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao*, Zhen-Yu Wu, Jing-Jing Li",
+        "authors": "Zhi-Hong He, Ye Xu, Chaojie Hao, Zhen-Yu Wu, Jing-Jing Li",
         "venue": "Research in Astronomy and Astrophysics, 21, (4), 093",
         "year": "2021",
         "tags": [
@@ -1823,7 +1823,7 @@
         "id": "2021ApJS..253...15L",
         "type": "J",
         "title": "High-sensitivity Millimeter Imaging of Molecular Outflows in Nine Nearby High-mass Star-forming Regions",
-        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao*, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
+        "authors": "De-Jian Liu, Ye Xu, Ying-Jie Li, Sheng Zheng, Deng-Rong Lu, Chaojie Hao, Ze-Hao Lin, Shuai-Bo Bian, Li-Ming Liu",
         "venue": "The Astrophysical Journals, 253, (1), 15",
         "year": "2021",
         "tags": [
@@ -1851,7 +1851,7 @@
         "id": "2021A&A...645L...8X",
         "type": "J",
         "title": "Local spiral structure based on the Gaia EDR3 parallaxes",
-        "authors": "Y. Xu, L. G. Hou, S. B. Bian, Chaojie Hao*, D. J. Liu, J. J. Li, Y. J. Li",
+        "authors": "Y. Xu, L. G. Hou, S. B. Bian, Chaojie Hao, D. J. Liu, J. J. Li, Y. J. Li",
         "venue": "Astronomy & Astrophysics, 645, L8",
         "year": "2021",
         "tags": [
@@ -1881,7 +1881,7 @@
         "id": "2020PASP..132c4502H",
         "type": "J",
         "title": "Sixteen Open Clusters Discovered with Sample-based Clustering Search of Gaia DR2",
-        "authors": "Chaojie Hao*, Ye Xu, ZhenYu Wu, ZhiHong He, ShuaiBo Bian",
+        "authors": "Chaojie Hao, Ye Xu, ZhenYu Wu, ZhiHong He, ShuaiBo Bian",
         "venue": "Publications of the Astronomical Society of the Pacific, 132, (1009), 034502",
         "year": "2020",
         "tags": [
