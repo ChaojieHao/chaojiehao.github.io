@@ -3,6 +3,7 @@ import researchJson from "@/content/research.json";
 import publicationsJson from "@/content/publications.json";
 import projectsJson from "@/content/projects.json";
 import timelineJson from "@/content/timeline.json";
+import fundingsJson from "@/content/fundings.json";
 import awardsJson from "@/content/awards.json";
 import updatesJson from "@/content/updates.json";
 import blogPageJson from "@/content/pages/blog.json";
@@ -30,7 +31,8 @@ import type {
   PublicationsPageCopy,
   CVPageCopy,
   ContactPageCopy,
-  ExperiencePageCopy
+  ExperiencePageCopy,
+  FundingsContent
 } from "./content-types";
 import { DEFAULT_LOCALE, type Locale } from "./locale";
 
@@ -73,6 +75,10 @@ export function getProjectsContent(): ProjectsContent {
 
 export function getTimelineContent(): TimelineContent {
   return resolveLocalized<TimelineContent["en"]>(timelineJson, "content/timeline.json");
+}
+
+export function getFundingsContent(): FundingsContent {
+  return resolveLocalized<FundingsContent["en"]>(fundingsJson, "content/fundings.json");
 }
 
 export function getAwardsContent(): AwardsContent {
