@@ -18,7 +18,7 @@ const NAV_ITEMS: Record<Locale, NavItem[]> = {
     { label: "Research", href: buildLocalePath("en", "/research") },
     { label: "Publications", href: buildLocalePath("en", "/publications") },
     { label: "Projects", href: buildLocalePath("en", "/projects") },
-    { label: "Experience", href: buildLocalePath("en", "/experience") },
+    { label: "Fundings", href: buildLocalePath("en", "/experience") },
     { label: "CV", href: buildLocalePath("en", "/cv") },
     { label: "Blog", href: buildLocalePath("en", "/blog") },
     { label: "Contact", href: buildLocalePath("en", "/contact") }
@@ -28,7 +28,7 @@ const NAV_ITEMS: Record<Locale, NavItem[]> = {
     { label: "科研概览", href: buildLocalePath("zh", "/research") },
     { label: "发表成果", href: buildLocalePath("zh", "/publications") },
     { label: "项目集锦", href: buildLocalePath("zh", "/projects") },
-    { label: "经历", href: buildLocalePath("zh", "/experience") },
+    { label: "基金", href: buildLocalePath("zh", "/experience") },
     { label: "简历", href: buildLocalePath("zh", "/cv") },
     { label: "博客", href: buildLocalePath("zh", "/blog") },
     { label: "联系", href: buildLocalePath("zh", "/contact") }
