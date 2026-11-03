@@ -1,1 +1,47 @@
 
+{
+  "_meta": {
+    "description": "Research funding and grants."
+  },
+  "en": {
+    "entries": [
+      {
+        "title": "Dynamical evolution of open clusters revealed by the high-precision astrometry of Gaia",
+        "role": "PI",
+        "category": "Youth Science Fund Project",
+        "source": "National Natural Science Foundation of China",
+        "year": "2024",
+        "projectId": "12403041"
+      },
+      {
+        "title": "Gaia's high-precision parameters reveal the evolution of open clusters in the Milky Way",
+        "role": "PI",
+        "category": "National Postdoctoral Program for Innovative Talents",
+        "source": "Office of China Postdoc Council",
+        "year": "2024",
+        "projectId": "BX20240414"
+      }
+    ]
+  },
+  "zh": {
+    "entries": [
+      {
+        "title": "Gaia高精度天体测量揭示疏散星团的动力学演化",
+        "role": "PI",
+        "category": "青年科学基金项目",
+        "source": "国家自然科学基金委员会",
+        "year": "2024",
+        "projectId": "12403041"
+      },
+      {
+        "title": "Gaia高精度测量刻画银河系中疏散星团的演化",
+        "role": "PI",
+        "category": "博士后创新人才支持计划",
+        "source": "中国博士后科学基金会",
+        "year": "2024",
+        "projectId": "BX20240414"
+      }
+    ]
+  }
+}
+
