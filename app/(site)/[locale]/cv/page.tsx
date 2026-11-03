@@ -34,36 +34,31 @@ export default async function CVPage({ params }: PageProps) {
         title={t.intro.title}
         description={t.intro.description}
         eyebrow={t.intro.eyebrow}
-        actions={
-          <a
-            href={profile.cvLink}
-            className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
-          >
-            {t.intro.download}
-          </a>
-        }
       >
         <div className="space-y-3 text-base text-slate-600 dark:text-slate-300">
           <p>{profile.title}</p>
           <p>{profile.affiliation}</p>
           <p>
             {t.intro.contactLabel}:{" "}
-            <Link href={`${base}/contact` as any} className="text-brand hover:text-brand-foreground">
-              {t.intro.contactAction}
-            </Link>
+            <a
+              href="mailto:chaojie.hao@uni-heidelberg.de"
+              className="text-brand hover:text-brand-foreground"
+              >
+              chaojie.hao@uni-heidelberg.de
+            </a>
           </p>
           <p>
             {t.intro.locationLabel}: {profile.location}
           </p>
         </div>
       </Section>
+      
+      <Section title={t.experience.title} eyebrow={t.experience.eyebrow}>
+        <Timeline items={timeline.experience} />
+      </Section>
 
       <Section title={t.education.title} eyebrow={t.education.eyebrow}>
         <Timeline items={timeline.education} />
-      </Section>
-
-      <Section title={t.experience.title} eyebrow={t.experience.eyebrow}>
-        <Timeline items={timeline.experience} />
       </Section>
 
       <Section title={t.honors.title} eyebrow={t.honors.eyebrow}>
