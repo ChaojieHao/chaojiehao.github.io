@@ -20,7 +20,7 @@ const TYPE_LABELS: Record<Locale, Record<PublicationEntry["type"], string>> = {
     C: "会议",
     J: "期刊",
     B: "图书",
-    S: 出版中"
+    S: "出版中"
   }
 };
 
