@@ -10,7 +10,7 @@ import type { PublicationEntry, PublicationsPageCopy } from "@/lib/content-types
 
 type Locale = "en" | "zh";
 
-const TYPE_OPTIONS = ["All", "C", "J", "P", "S"] as const;
+const TYPE_OPTIONS = ["All", "C", "J", "B", "S", "First Author"] as const;
 type TypeFilter = typeof TYPE_OPTIONS[number];
 
 type PublicationsClientProps = {
@@ -30,7 +30,11 @@ export function PublicationsClient({ entries, locale, copy }: PublicationsClient
 
   const filteredEntries = useMemo(() => {
     return entries.filter((entry) => {
-      const typeMatch = typeFilter === "All" || entry.type === typeFilter;
+      const typeMatch =
+        typeFilter === "All" ||
+        (typeFilter === "First Author"
+         ? entry.authors.split(",")[0].trim().replace(/\*$/, "") === "Chaojie Hao"
+         : entry.type === typeFilter);
       const yearMatch = yearFilter === "All" || entry.year === yearFilter;
       return typeMatch && yearMatch;
     });
