@@ -4,10 +4,10 @@
   },
   "en": {
     "section": {
-      "title": "Publications & Patents",
-      "description": "List papers, preprints, patents, or talks in a single structured file.",
+      "title": "Publications",
+      "description": "",
       "eyebrow": "Catalogue",
-      "note": "* indicates first author or equal contribution, if applicable"
+      "note": "* indicates corresponding author"
     },
     "filters": {
       "type": "Type",
@@ -24,10 +24,10 @@
   },
   "zh": {
     "section": {
-      "title": "论文与专利",
-      "description": "通过单个结构化文件维护论文、预印本、专利或报告。",
+      "title": "论文",
+      "description": "",
       "eyebrow": "成果目录",
-      "note": "* 可用于标记一作或共同一作"
+      "note": "* 表示通讯作者"
     },
     "filters": {
       "type": "类型",
