@@ -8,106 +8,106 @@
   "en": {
     "updates": [
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "Commit",
-        "title": "Update profile.json",
+        "title": "Rename 'Experience' to 'Fundings' in layout",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e97930882274c95281e865514bce99b9e6368a64"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8b3f7327437c287149ca4b4acd8a7c0dff093767"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "Commit",
-        "title": "Add files via upload",
+        "title": "Create fundings.json for research grants data",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/618471e408121b902cdb2c501cca7d26226d20f4"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7d5ece9458aafac0e39e817eb3437d6504a436d2"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "Commit",
-        "title": "Delete public/images/research/Stellar Dynamics.jpg",
+        "title": "Refactor ExperiencePage to display funding entries",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2bef755e2c09c1e6d6da5ee6cdb4c32ca22cc62f"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/c6088d38ae82f26782cf38f69ddcda67069bc3f0"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "Commit",
-        "title": "Delete public/images/research/Star formation.jpg",
+        "title": "Delete education content type from content-types.ts",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/225d890ffbfb4eb59fb370fd2585d278e61f9652"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ebf91bd05427c29b5434493f1fdc7bea6990558f"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "Commit",
-        "title": "Delete public/images/research/Open Clusters.jpg",
+        "title": "Add function to get funding content",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7b9af8e44dc3943e6df8d82e975aa5fecf3eb042"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/82530f5c29830be832809c6374dfeb5bcd14d9ac"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "Commit",
-        "title": "Delete public/images/research/Milky Way.jpg",
+        "title": "Add FundingEntry and FundingsContent types",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/17092fe1c5cc52afdf5ece14305be72291b42701"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6d28c7888f515702a310eb2a4253f20354eca20b"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "Commit",
-        "title": "Add new awards to awards.json",
+        "title": "Update fundings.json",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8127d160afc2c5adf27aa5c719b3d77a3a927c40"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7b24e628fa4ee15936278b1e768070d2f7344da9"
       }
     ]
   },
   "zh": {
     "updates": [
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "提交",
-        "title": "Update profile.json",
+        "title": "Rename 'Experience' to 'Fundings' in layout",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e97930882274c95281e865514bce99b9e6368a64"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8b3f7327437c287149ca4b4acd8a7c0dff093767"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "提交",
-        "title": "Add files via upload",
+        "title": "Create fundings.json for research grants data",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/618471e408121b902cdb2c501cca7d26226d20f4"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7d5ece9458aafac0e39e817eb3437d6504a436d2"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "提交",
-        "title": "Delete public/images/research/Stellar Dynamics.jpg",
+        "title": "Refactor ExperiencePage to display funding entries",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/2bef755e2c09c1e6d6da5ee6cdb4c32ca22cc62f"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/c6088d38ae82f26782cf38f69ddcda67069bc3f0"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "提交",
-        "title": "Delete public/images/research/Star formation.jpg",
+        "title": "Delete education content type from content-types.ts",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/225d890ffbfb4eb59fb370fd2585d278e61f9652"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ebf91bd05427c29b5434493f1fdc7bea6990558f"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "提交",
-        "title": "Delete public/images/research/Open Clusters.jpg",
+        "title": "Add function to get funding content",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7b9af8e44dc3943e6df8d82e975aa5fecf3eb042"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/82530f5c29830be832809c6374dfeb5bcd14d9ac"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "提交",
-        "title": "Delete public/images/research/Milky Way.jpg",
+        "title": "Add FundingEntry and FundingsContent types",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/17092fe1c5cc52afdf5ece14305be72291b42701"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6d28c7888f515702a310eb2a4253f20354eca20b"
       },
       {
-        "date": "2026-11-02",
+        "date": "2026-11-03",
         "type": "提交",
-        "title": "Add new awards to awards.json",
+        "title": "Update fundings.json",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/8127d160afc2c5adf27aa5c719b3d77a3a927c40"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7b24e628fa4ee15936278b1e768070d2f7344da9"
       }
     ]
   }
