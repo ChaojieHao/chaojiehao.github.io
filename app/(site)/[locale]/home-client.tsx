@@ -3,11 +3,10 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { ProjectCard } from "@/components/project-card";
 import { PublicationItem } from "@/components/publication-item";
 import { Section } from "@/components/section";
 import { Tag } from "@/components/tag";
-import type { AwardEntry, HomePageCopy, LocaleProfile, ProjectEntry, PublicationEntry, UpdateEntry } from "@/lib/content-types";
+import type { AwardEntry, HighlightEntry, HomePageCopy, LocaleProfile, PublicationEntry, UpdateEntry } from "@/lib/content-types";
 import type { Locale } from "@/lib/locale";
 
 // Lazy-load non-critical component to reduce initial bundle size.
@@ -15,7 +14,7 @@ import type { Locale } from "@/lib/locale";
 type HomeClientProps = {
   locale: Locale;
   profile: LocaleProfile;
-  highlightProjects: ProjectEntry[];
+  highlights: HighlightEntry[];
   publications: PublicationEntry[];
   updates: UpdateEntry[];
   awards: AwardEntry[];
@@ -25,7 +24,7 @@ type HomeClientProps = {
 export function HomeClient({
   locale,
   profile,
-  highlightProjects,
+  highlights,
   publications,
   updates,
   awards,
@@ -181,15 +180,79 @@ export function HomeClient({
         title={copy.sections.projects.title}
         eyebrow={copy.sections.projects.eyebrow}
         actions={
-          <Link href={`${base}/projects` as any} className="text-sm font-medium text-brand hover:text-brand-foreground">
+          <Link
+            href={`${base}/projects` as any}
+            className="text-sm font-medium text-brand hover:text-brand-foreground"
+            >
             {copy.sections.projects.action}
           </Link>
         }
-      >
-        <div className="grid gap-6 md:grid-cols-2">
-          {highlightProjects.map((item) => (
-            <ProjectCard key={item.name} project={item} />
-          ))}
+        >
+        <div className="space-y-7">
+          {highlights.map((item) => (
+          <article
+            key={`${item.year}-${item.title}`}
+            className="grid gap-5 overflow-hidden rounded-2xl border border-slate-200 bg-white/70 p-4 dark:border-slate-700 dark:bg-slate-900/40 md:grid-cols-[240px_minmax(0,1fr)] md:gap-7"
+            >
+            {/* Left: image */}
+            <div className="relative aspect-[5/4] w-full overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800">
+              <Image
+                src={item.image}
+                alt={item.title}
+                fill
+                className="object-cover transition-transform duration-300 hover:scale-105"
+                sizes="(max-width: 768px) 100vw, 240px"
+                />
+            </div>
+            
+            {/* Right: information */}
+            <div className="flex min-w-0 flex-col justify-center py-1">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-brand">
+                {item.year}
+              </p>
+              
+              <h3 className="text-lg font-semibold leading-snug text-slate-900 dark:text-slate-50">
+                {item.title}
+              </h3>
+              
+              <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                {item.summary}
+              </p>
+              
+              {item.keywords.length > 0 && (
+              <div className="mt-4 flex flex-wrap gap-2">
+                {item.keywords.map((keyword) => (
+                <Tag key={keyword} label={keyword} />
+              ))}
+              </div>
+            )}
+              
+              {item.links && item.links.length > 0 && (
+              <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
+                {item.links.map((link) => (
+                <a
+                  key={`${link.label}-${link.href}`}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm font-medium text-brand transition-colors hover:text-brand-foreground"
+                  >
+                  {link.label} ↗
+                </a>
+              ))}
+              </div>
+            )}
+            </div>
+          </article>
+        ))}
+          
+          {highlights.length === 0 && (
+          <p className="text-sm text-slate-500 dark:text-slate-400">
+            {locale === "zh"
+              ? "精选研究成果即将更新。"
+            : "Selected research highlights will be added soon."}
+          </p>
+        )}
         </div>
       </Section>
 
