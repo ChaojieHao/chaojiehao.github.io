@@ -71,6 +71,22 @@ export type ProjectGroup = {
   items: ProjectEntry[];
 };
 
+export type HighlightEntry = {
+  year: string;
+  title: string;
+  summary: string;
+  keywords: string[];
+  image: string;
+  links?: {
+    label: string;
+    href: string;
+  }[];
+};
+
+export type HighlightsContent = Localized<{
+  entries: HighlightEntry[];
+}>;
+
 export type TimelineEntry = {
   title: string;
   period: string;
