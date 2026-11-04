@@ -292,7 +292,7 @@ export type ContactPageCopy = Localized<{
 }>;
 
 export type FundingsPageCopy = Localized<{
-  experience: {
+  fundings: {
     title: string;
     description: string;
     eyebrow: string;
