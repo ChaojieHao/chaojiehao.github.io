@@ -50,9 +50,11 @@ export default async function ExperiencePage({ params }: PageProps) {
             className="rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-[0_24px_60px_-45px_rgba(15,23,42,0.45)] dark:border-slate-800 dark:bg-slate-900/70"
           >
             <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
-              {entry.title}
+              {entry.category}
             </h3>
-
+            <p className="mt-2 text-sm font-medium text-slate-700 dark:text-slate-300">
+              {entry.title}
+            </p>
             <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
               {[
                 [labels.role, entry.role],
