@@ -348,7 +348,7 @@
 - [../content/pages/cv.json](../content/pages/cv.json)
 - [../content/pages/contact.json](../content/pages/contact.json)
 - [../content/pages/blog.json](../content/pages/blog.json)
-- [../content/pages/experience.json](../content/pages/experience.json)
+- [../content/pages/fundings-page.json](../content/pages/fundings-page.json)
 
 如果你要改的是：
 
