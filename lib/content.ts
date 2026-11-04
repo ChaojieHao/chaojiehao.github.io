@@ -14,6 +14,7 @@ import publicationsPageJson from "@/content/pages/publications.json";
 import cvPageJson from "@/content/pages/cv.json";
 import contactPageJson from "@/content/pages/contact.json";
 import fundingsPageJson from "@/content/pages/fundings-page.json";
+import highlightsJson from "@/content/highlights.json";
 
 import type {
   ProfileContent,
@@ -32,7 +33,8 @@ import type {
   CVPageCopy,
   ContactPageCopy,
   FundingsPageCopy,
-  FundingsContent
+  FundingsContent,
+  HighlightsContent
 } from "./content-types";
 import { DEFAULT_LOCALE, type Locale } from "./locale";
 
@@ -71,6 +73,10 @@ export function getPublicationsContent(): PublicationsContent {
 
 export function getProjectsContent(): ProjectsContent {
   return resolveLocalized<ProjectsContent["en"]>(projectsJson, "content/projects.json");
+}
+
+export function getHighlightsContent(): HighlightsContent {
+  return resolveLocalized<HighlightsContent["en"]>(highlightsJson,"content/highlights.json");
 }
 
 export function getTimelineContent(): TimelineContent {
