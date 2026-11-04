@@ -13,7 +13,7 @@ import projectsPageJson from "@/content/pages/projects.json";
 import publicationsPageJson from "@/content/pages/publications.json";
 import cvPageJson from "@/content/pages/cv.json";
 import contactPageJson from "@/content/pages/contact.json";
-import experiencePageJson from "@/content/pages/experience.json";
+import fundingsPageJson from "@/content/pages/fundings-page.json";
 
 import type {
   ProfileContent,
@@ -31,7 +31,7 @@ import type {
   PublicationsPageCopy,
   CVPageCopy,
   ContactPageCopy,
-  ExperiencePageCopy,
+  FundingsPageCopy,
   FundingsContent
 } from "./content-types";
 import { DEFAULT_LOCALE, type Locale } from "./locale";
@@ -117,6 +117,6 @@ export function getContactPageCopy(): ContactPageCopy {
   return resolveLocalized<ContactPageCopy["en"]>(contactPageJson, "content/pages/contact.json");
 }
 
-export function getExperiencePageCopy(): ExperiencePageCopy {
-  return resolveLocalized<ExperiencePageCopy["en"]>(experiencePageJson, "content/pages/experience.json");
+export function getFundingsPageCopy(): FundingsPageCopy {
+  return resolveLocalized<FundingsPageCopy["en"]>(fundingsPageJson,"content/pages/fundings-page.json");
 }
