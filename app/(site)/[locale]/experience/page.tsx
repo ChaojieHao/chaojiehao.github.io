@@ -2,7 +2,7 @@
 import { notFound } from "next/navigation";
 
 import { Section } from "@/components/section";
-import { getExperiencePageCopy, getFundingsContent } from "@/lib/content";
+import { getFundingsPageCopy, getFundingsContent } from "@/lib/content";
 import { normalizeLocale } from "@/lib/locale";
 
 type PageProps = {
@@ -18,7 +18,7 @@ export default async function ExperiencePage({ params }: PageProps) {
   }
 
   const entries = getFundingsContent()[locale].entries;
-  const copy = getExperiencePageCopy()[locale];
+  const copy = getFundingsPageCopy()[locale];
 
   const labels =
     locale === "zh"
