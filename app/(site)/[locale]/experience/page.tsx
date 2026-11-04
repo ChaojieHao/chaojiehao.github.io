@@ -39,9 +39,9 @@ export default async function ExperiencePage({ params }: PageProps) {
 
   return (
     <Section
-      title={copy.experience.title}
-      description={copy.experience.description}
-      eyebrow={copy.experience.eyebrow}
+      title={copy.fundings.title}
+      description={copy.fundings.description}
+      eyebrow={copy.fundings.eyebrow}
     >
       <div className="space-y-6">
         {entries.map((entry) => (
