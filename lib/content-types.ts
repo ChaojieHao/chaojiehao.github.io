@@ -291,7 +291,7 @@ export type ContactPageCopy = Localized<{
   scholarLabel: string;
 }>;
 
-export type ExperiencePageCopy = Localized<{
+export type FundingsPageCopy = Localized<{
   experience: {
     title: string;
     description: string;
