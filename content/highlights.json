@@ -1,1 +1,100 @@
 
+{
+  "en": {
+    "entries": [
+      {
+        "year": "2022",
+        "title": "Newly detected open clusters in the Galactic disk using Gaia EDR3",
+        "summary": "We conducted a blind search for open clusters in the Galactic disk using Gaia EDR3 and identified 704 new candidate open clusters, providing an expanded sample for studying the stellar populations and structure of the Milky Way.",
+        "keywords": [
+          "Open Clusters",
+          "Gaia EDR3",
+          "Cluster Search",
+          "Milky Way"
+        ],
+        "image": "/images/research/Open%20Clusters.jpg",
+        "links": [
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022A&A...660A...4H"
+          },
+          {
+            "label": "Paper",
+            "href": "https://doi.org/10.1051/0004-6361/202243091"
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "title": "Evolution of the local spiral structure of the Milky Way revealed by open clusters",
+        "summary": "Using a catalogue of 3,794 open clusters based on Gaia EDR3, we investigated the nearby spiral structure and its evolution. Our results suggest that the local spiral pattern has remained approximately stable over the past 80 million years, with the Local Arm likely being a long-lived major arm segment.",
+        "keywords": [
+          "Milky Way",
+          "Spiral Structure",
+          "Open Clusters",
+          "Galactic Evolution"
+        ],
+        "image": "/images/research/Milky%20Way.jpg",
+        "links": [
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021A&A...652A.102H"
+          },
+          {
+            "label": "Paper",
+            "href": "https://doi.org/10.1051/0004-6361/202140608"
+          }
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "entries": [
+      {
+        "year": "2022",
+        "title": "利用 Gaia EDR3 在银河系盘中发现新的疏散星团",
+        "summary": "基于 Gaia EDR3 数据，我们对银河系盘开展了疏散星团盲搜，发现了 704 个新的候选疏散星团，为研究银河系的恒星族群和结构提供了更大规模的样本。",
+        "keywords": [
+          "疏散星团",
+          "Gaia EDR3",
+          "星团搜寻",
+          "银河系"
+        ],
+        "image": "/images/research/Open%20Clusters.jpg",
+        "links": [
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2022A&A...660A...4H"
+          },
+          {
+            "label": "论文",
+            "href": "https://doi.org/10.1051/0004-6361/202243091"
+          }
+        ]
+      },
+      {
+        "year": "2021",
+        "title": "利用疏散星团揭示银河系太阳邻域旋臂结构的演化",
+        "summary": "基于 Gaia EDR3 构建的 3794 个疏散星团样本，我们研究了太阳邻域旋臂结构及其演化。结果表明，附近的旋臂结构在过去约 8000 万年内可能保持相对稳定，且本地臂可能是银河系中一个长期存在的主要旋臂段。",
+        "keywords": [
+          "银河系",
+          "旋臂结构",
+          "疏散星团",
+          "银河系演化"
+        ],
+        "image": "/images/research/Milky%20Way.jpg",
+        "links": [
+          {
+            "label": "ADS",
+            "href": "https://ui.adsabs.harvard.edu/abs/2021A&A...652A.102H"
+          },
+          {
+            "label": "论文",
+            "href": "https://doi.org/10.1051/0004-6361/202140608"
+          }
+        ]
+      }
+    ]
+  }
+}
+
