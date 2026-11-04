@@ -5,6 +5,7 @@ import { HomeClient } from "./home-client";
 import {
   getAwardsContent,
   getHomePageCopy,
+  getHighlightsContent,
   getProfileContent,
   getProjectsContent,
   getPublicationsContent,
@@ -24,7 +25,7 @@ export default async function HomePage({ params }: PageProps) {
   }
 
   const profile = getProfileContent()[locale];
-  const highlightProjects = getProjectsContent()[locale].groups.flatMap((group) => group.items).slice(0, 4);
+  const highlights = getHighlightsContent()[locale].entries;
   const publications = [...getPublicationsContent()[locale].entries]
     .sort((a, b) => Number(b.year) - Number(a.year))
     .slice(0, 2);
@@ -36,7 +37,7 @@ export default async function HomePage({ params }: PageProps) {
     <HomeClient
       locale={locale}
       profile={profile}
-      highlightProjects={highlightProjects}
+      highlights={highlights}
       publications={publications}
       updates={updates}
       awards={awards}
