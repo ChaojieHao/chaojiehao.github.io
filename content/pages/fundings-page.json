@@ -1,20 +1,19 @@
 {
   "_meta": {
-    "description": "Copy and labels for the Experience page."
+    "description": "Copy and labels for the Fundings page."
   },
   "en": {
-    "experience": {
+    "fundings": {
       "title": "Fundings",
       "description": "Research grants and funding awarded.",
       "eyebrow": "Fundings"
     }
   },
   "zh": {
-    "experience": {
+    "fundings": {
       "title": "基金",
       "description": "获得的科研基金与项目资助。",
       "eyebrow": "基金"
     }
   }
 }
-
