@@ -1,3 +1,4 @@
+
 import { notFound } from "next/navigation";
 
 import { Section } from "@/components/section";
@@ -22,21 +23,61 @@ export default async function ResearchPage({ params }: PageProps) {
   return (
     <div className="space-y-16">
       <section className="space-y-4 rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-white p-8 shadow-[0_24px_60px_-45px_rgba(30,64,175,0.45)] dark:border-slate-800 dark:bg-gradient-to-br dark:from-slate-900/80 dark:via-slate-900/60 dark:to-slate-900/40">
-        <h1 className="text-3xl font-semibold text-blue-900 dark:text-white">{t.heroTitle}</h1>
-        <p className="text-base leading-relaxed text-blue-900/70 dark:text-slate-300">{t.heroDescription}</p>
+        <h1 className="text-3xl font-semibold text-blue-900 dark:text-white">
+          {t.heroTitle}
+        </h1>
+        <p className="text-base leading-relaxed text-blue-900/70 dark:text-slate-300">
+          {t.heroDescription}
+        </p>
       </section>
 
       <Section title={t.interestsTitle} eyebrow={t.interestsEyebrow}>
-        <div className="grid gap-4 md:grid-cols-2">
-          {interests.map((interest) => (
-            <article
-              key={interest.title}
-              className="rounded-2xl border border-slate-200 bg-white/90 p-5 dark:border-slate-800 dark:bg-slate-900/70"
-            >
-              <h3 className="text-base font-semibold text-slate-900 dark:text-slate-50">{interest.title}</h3>
-              <p className="mt-2 text-base leading-relaxed text-slate-600 dark:text-slate-300">{interest.description}</p>
-            </article>
-          ))}
+        <div className="space-y-8">
+          {interests.map((interest, index) => {
+            const imageFirst = index < 2;
+
+            return (
+              <article
+                key={interest.title}
+                className="grid items-center gap-6 overflow-hidden rounded-3xl border border-slate-200 bg-white/90 p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900/70 md:grid-cols-2 md:gap-8 md:p-7"
+              >
+                <div
+                  className={`relative aspect-[16/10] overflow-hidden rounded-2xl bg-slate-100 dark:bg-slate-800 ${
+                    imageFirst ? "md:order-1" : "md:order-2"
+                  }`}
+                >
+                  <img
+                    src={interest.image}
+                    alt={interest.title}
+                    className="h-full w-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div
+                  className={`flex flex-col justify-center ${
+                    imageFirst ? "md:order-2" : "md:order-1"
+                  }`}
+                >
+                  <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-700 dark:text-blue-400">
+                    {String(index + 1).padStart(2, "0")}
+                  </p>
+
+                  <h3 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900 dark:text-slate-50">
+                    {interest.title}
+                  </h3>
+
+                  <p className="mt-2 text-sm font-medium text-blue-700 dark:text-blue-400">
+                    {interest.subtitle}
+                  </p>
+
+                  <p className="mt-5 text-base leading-8 text-slate-600 dark:text-slate-300">
+                    {interest.description}
+                  </p>
+                </div>
+              </article>
+            );
+          })}
         </div>
       </Section>
 
@@ -49,7 +90,9 @@ export default async function ResearchPage({ params }: PageProps) {
             details: [item.summary, ...item.bullets]
           }))}
         />
-        <p className="mt-6 text-base text-slate-600 dark:text-slate-300">{t.collaboration}</p>
+        <p className="mt-6 text-base text-slate-600 dark:text-slate-300">
+          {t.collaboration}
+        </p>
       </Section>
     </div>
   );
