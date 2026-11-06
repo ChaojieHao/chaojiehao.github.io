@@ -1,28 +1,37 @@
+
 {
   "_meta": {
     "description": "Research interests and experience timeline. Interests feed the Research page; experiences populate the detailed narrative cards.",
     "fields": {
-      "interests": "Array of { title, description } cards",
+      "interests": "Array of { title, subtitle, description, image }",
       "experiences": "Array of { title, period, role, advisor, funding, summary, bullets, tags }"
     }
   },
   "en": {
     "interests": [
       {
-        "title": "Embodied AI Systems",
-        "description": "Integrating perception, planning, and control in long-horizon physical tasks."
+        "title": "Open Clusters",
+        "subtitle": "Formation, structure, and evolution",
+        "description": "My research focuses on the formation, structure, and evolution of open clusters in the Milky Way. By combining high-precision astrometry from Gaia with multi-wavelength observations, I investigate their stellar populations, spatial distributions, internal kinematics, and dynamical states. I am also interested in the role of stellar remnants in the dynamical evolution and mass composition of open clusters.",
+        "image": "/images/research/Open%20Clusters.jpg"
       },
       {
-        "title": "Robot Learning",
-        "description": "Sample-efficient policy learning for manipulation, navigation, and adaptation."
+        "title": "Milky Way",
+        "subtitle": "Structure, kinematics, and evolution",
+        "description": "My research focuses on the three-dimensional structure, kinematics, and evolution of the Milky Way. This includes the structure and evolution of Galactic spiral arms, the spatial distribution and motions of different stellar populations, and the use of open clusters and other stellar tracers to explore the Galactic disk. I am particularly interested in using Gaia data to investigate the formation and evolution of the Milky Way's large-scale structures.",
+        "image": "/images/research/Milky%20Way.jpg"
       },
       {
-        "title": "Human-Robot Collaboration",
-        "description": "Interfaces and autonomy strategies for safe, interpretable teamwork."
+        "title": "Stellar Dynamics",
+        "subtitle": "Internal motions and dynamical evolution",
+        "description": "I investigate the internal kinematics and dynamical evolution of star clusters. In particular, I study their internal rotation, expansion, velocity dispersion, and dynamical states using precise stellar positions and motions. These properties provide important clues to understanding cluster formation, early evolution, and the role of dynamical processes in shaping their present-day structures.",
+        "image": "/images/research/Stellar%20Dynamics.jpg"
       },
       {
-        "title": "Edge Deployment",
-        "description": "Moving modern autonomy pipelines onto real devices with tight compute budgets."
+        "title": "Star Formation",
+        "subtitle": "Young stars and interstellar medium",
+        "description": "I study the three-dimensional structure, kinematics, and evolution of star-forming regions in the Milky Way. By combining stellar data with multi-wavelength observations of the interstellar medium, I investigate the relationships between young stellar populations, molecular clouds, and surrounding gas structures. My research aims to understand the physical processes involved in star formation and the influence of stellar feedback on the surrounding environment.",
+        "image": "/images/research/Star%20formation.jpg"
       }
     ],
     "experiences": [
@@ -70,61 +79,69 @@
   "zh": {
     "interests": [
       {
-        "title": "具身智能系统",
-        "description": "将感知、规划与控制统一到长时程物理任务中，提升真实环境下的执行可靠性。"
+        "title": "疏散星团",
+        "subtitle": "形成、结构与演化",
+        "description": "我的研究主要关注银河系中疏散星团的形成、结构与演化。结合 Gaia 高精度天体测量数据和多波段观测，我研究疏散星团的恒星成员、空间分布、内部运动学及动力学状态。此外，我也关注恒星遗迹在疏散星团动力学演化和质量组成中的作用。",
+        "image": "/images/research/Open%20Clusters.jpg"
       },
       {
-        "title": "机器人学习",
-        "description": "关注操控、导航与自适应任务中的高样本效率学习方法。"
+        "title": "银河系",
+        "subtitle": "结构、运动学与演化",
+        "description": "我的研究关注银河系的三维结构、运动学特征及其演化过程，主要包括银河系旋臂的结构与演化、不同恒星族群的空间分布和运动特征，以及利用疏散星团等恒星示踪体研究银河系盘。我尤其关注利用 Gaia 数据探索银河系大尺度结构的形成与演化。",
+        "image": "/images/research/Milky%20Way.jpg"
       },
       {
-        "title": "人机协作",
-        "description": "研究可解释、安全且具备协作意识的交互与自治策略。"
+        "title": "恒星动力学",
+        "subtitle": "内部运动与动力学演化",
+        "description": "我主要研究星团的内部运动学特征及其动力学演化，尤其关注星团的内部旋转、膨胀、速度弥散和动力学状态。通过精确的恒星位置和运动信息，可以进一步理解星团的形成、早期演化，以及不同动力学过程对其当前结构的影响。",
+        "image": "/images/research/Stellar%20Dynamics.jpg"
       },
       {
-        "title": "边缘部署",
-        "description": "将现代自主系统能力压缩到算力受限的真实设备中。"
+        "title": "恒星形成",
+        "subtitle": "年轻恒星与星际介质",
+        "description": "我的研究关注银河系恒星形成区的三维结构、运动学特征及其演化。通过结合恒星数据与星际介质的多波段观测，我研究年轻恒星族群、分子云及其周围气体结构之间的联系，进而探索恒星形成过程中的物理机制，以及恒星反馈对周围环境的影响。",
+        "image": "/images/research/Star%20formation.jpg"
       }
     ],
     "experiences": [
       {
-        "title": "面向实验室复杂场景的自适应移动操控",
-        "period": "2025 – 至今",
-        "role": "学生负责人",
-        "advisor": "导师：赵琳教授",
-        "funding": "实验室种子基金",
-        "summary": "构建由感知驱动的移动操控策略，使系统在布局频繁变化和示例稀缺时仍保持稳定表现。",
+        "title": "Adaptive Mobile Manipulation for Cluttered Labs",
+        "period": "2025 – Present",
+        "role": "Lead Student Researcher",
+        "advisor": "Prof. Lina Zhao",
+        "funding": "Lab Seed Grant",
+        "summary": "Building perception-driven manipulation policies that remain stable under shifting layouts and sparse demonstrations.",
         "bullets": [
-          "结合语言条件任务提示与视觉可供性地图进行动作生成。",
-          "通过可复用评测场景和脚本化标定流程降低实验重置成本。"
+          "Combined language-conditioned task prompts with vision-based affordance maps.",
+          "Reduced reset time by introducing reusable evaluation scenes and scripted calibration checks."
         ],
-        "tags": ["操控", "视觉语言", "机器人"]
+        "tags": ["Manipulation", "Vision-Language", "Robotics"]
       },
       {
-        "title": "半结构化环境中的多机器人巡检",
+        "title": "Multi-Robot Inspection in Semi-Structured Environments",
         "period": "2024 – 2025",
-        "role": "研究工程师",
-        "advisor": "合作导师：吴安然博士",
-        "funding": "产学合作项目",
-        "summary": "为异构机器人设计协同巡检逻辑，以适应设施环境持续变化和不稳定通信条件。",
+        "role": "Research Engineer",
+        "advisor": "Dr. Aaron Wu",
+        "funding": "Industry Collaboration",
+        "summary": "Designed coordination logic for heterogeneous robots performing inspection rounds across changing indoor facilities.",
         "bullets": [
-          "实现地图共享与断连回退路径策略。",
-          "系统评估感知退化和通信延迟下的任务完成率。"
+          "Implemented map-sharing and fallback routing for intermittent connectivity.",
+          "Benchmarked task completion under degraded sensing and delayed communication."
         ],
-        "tags": ["多机器人", "巡检", "自主系统"]
+        "tags": ["Multi-Robot", "Inspection", "Autonomy"]
       },
       {
-        "title": "服务机器人学习型导航系统",
+        "title": "Learning-Based Navigation Stack for Service Robots",
         "period": "2023 – 2024",
-        "role": "研究助理",
-        "advisor": "导师：赵琳教授",
-        "funding": "研究生奖学金",
-        "summary": "探索结合经典规划器与学习先验的混合式导航系统。",
+        "role": "Graduate Research Assistant",
+        "advisor": "Prof. Lina Zhao",
+        "funding": "Graduate Fellowship",
+        "summary": "Explored hybrid navigation pipelines that blend classical planners with learned scene priors.",
         "bullets": [
-          "在拥挤走廊场景中为低置信度感知结果加入安全缓冲策略。",
-          "通过状态感知重规划改进定位丢失后的恢复行为。"
+          "Added safety envelopes around low-confidence detections in crowded hallways.",
+          "Improved recovery behavior after localization loss through state-aware replanning."
         ],
-        "tags": ["导航", "学习", "部署"]
+        "tags": ["Navigation", "Learning", "Deployment"]
       }
     ]
   }
