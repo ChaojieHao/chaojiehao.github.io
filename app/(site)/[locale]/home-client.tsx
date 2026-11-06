@@ -154,7 +154,7 @@ export function HomeClient({
             key={item.title}
             className="overflow-hidden rounded-2xl border border-slate-200 bg-white/70 dark:border-slate-700 dark:bg-slate-900/40"
             >
-            <div className="relative aspect-[16/9] w-full overflow-hidden">
+            <div className="relative aspect-[16/10] w-full overflow-hidden">
               <Image
                 src={item.image}
                 alt={item.title}
