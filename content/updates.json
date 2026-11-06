@@ -8,106 +8,106 @@
   "en": {
     "updates": [
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "Commit",
-        "title": "Add rows for Galaxy and Galactic structure",
+        "title": "Change aspect ratio from 16/9 to 16/10",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/b14b90de7046c38c6ab55dcfbbf1fd606bc37ea9"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/90a37fa525c8028c41878df2a58db9161acb2d4b"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "Commit",
-        "title": "Fix punctuation in job titles in timeline.json",
+        "title": "Add files via upload",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/288c5638d7fede4f67f53e3e0d9d612891160e0f"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7f9d1f86549aa7ffc0076ed8880fe4f349830298"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "Commit",
-        "title": "Replace highlightProjects with highlights in HomeClient",
+        "title": "Refactor layout and improve interest section display",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/9bc51dd29ca9f8c857917d43980a0880f6f4ca2e"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f294e76a4dc57c65cd9c3e2affe1cdbf85772d7"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "Commit",
-        "title": "Replace highlightProjects with highlights content",
+        "title": "Add subtitle field to ResearchInterest type",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e9db7f7bf6bcb678d5bc149280f60e4080fb33e0"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a9ecc51393104bfcc10ca37c340ad52e8eb8069"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "Commit",
-        "title": "Add highlights for research articles in JSON format",
+        "title": "Revise research interests structure and content",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/b17706c2ae449c6aee02f658c1bf167c2fdaa8c1"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/65694fa7a48d47ced8c59c6f68617dbede4c56e0"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "Commit",
-        "title": "Create highlights.json",
+        "title": "Remove lastUpdated prop from SiteFooter",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/1ce40d5255316a37826aedbcfd1146ec0bb08800"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/61a2608087d5ee49be11aa3af2eedbc865099cdb"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "Commit",
-        "title": "Add getHighlightsContent function",
+        "title": "Update SiteFooter to display today's date",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/10c14e3071da42aae8b9211e07d106c3c2f37687"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e0886e4267af7db6b75a2b72cb43618444b7ce18"
       }
     ]
   },
   "zh": {
     "updates": [
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "提交",
-        "title": "Add rows for Galaxy and Galactic structure",
+        "title": "Change aspect ratio from 16/9 to 16/10",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/b14b90de7046c38c6ab55dcfbbf1fd606bc37ea9"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/90a37fa525c8028c41878df2a58db9161acb2d4b"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "提交",
-        "title": "Fix punctuation in job titles in timeline.json",
+        "title": "Add files via upload",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/288c5638d7fede4f67f53e3e0d9d612891160e0f"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7f9d1f86549aa7ffc0076ed8880fe4f349830298"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "提交",
-        "title": "Replace highlightProjects with highlights in HomeClient",
+        "title": "Refactor layout and improve interest section display",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/9bc51dd29ca9f8c857917d43980a0880f6f4ca2e"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f294e76a4dc57c65cd9c3e2affe1cdbf85772d7"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "提交",
-        "title": "Replace highlightProjects with highlights content",
+        "title": "Add subtitle field to ResearchInterest type",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e9db7f7bf6bcb678d5bc149280f60e4080fb33e0"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a9ecc51393104bfcc10ca37c340ad52e8eb8069"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "提交",
-        "title": "Add highlights for research articles in JSON format",
+        "title": "Revise research interests structure and content",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/b17706c2ae449c6aee02f658c1bf167c2fdaa8c1"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/65694fa7a48d47ced8c59c6f68617dbede4c56e0"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "提交",
-        "title": "Create highlights.json",
+        "title": "Remove lastUpdated prop from SiteFooter",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/1ce40d5255316a37826aedbcfd1146ec0bb08800"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/61a2608087d5ee49be11aa3af2eedbc865099cdb"
       },
       {
-        "date": "2026-11-04",
+        "date": "2026-11-06",
         "type": "提交",
-        "title": "Add getHighlightsContent function",
+        "title": "Update SiteFooter to display today's date",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/10c14e3071da42aae8b9211e07d106c3c2f37687"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e0886e4267af7db6b75a2b72cb43618444b7ce18"
       }
     ]
   }
