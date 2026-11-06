@@ -23,6 +23,7 @@ export type ProfileContent = Localized<LocaleProfile>;
 
 export type ResearchInterest = {
   title: string;
+  subtitle: string;
   description: string;
   image: string;
 };
