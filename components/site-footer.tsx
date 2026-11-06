@@ -1,32 +1,37 @@
+
 import Link from "next/link";
 
 type Locale = "en" | "zh";
 
 type SiteFooterProps = {
-  lastUpdated?: string;
   locale?: Locale;
 };
 
 /**
- * Global footer with copyright, update info, and quick links.
+ * Global footer with copyright, today's date, and quick links.
  */
-export function SiteFooter({ lastUpdated, locale = "en" }: SiteFooterProps) {
+export function SiteFooter({ locale = "en" }: SiteFooterProps) {
+  const today = new Date().toISOString().slice(0, 10);
   const year = new Date().getFullYear();
   const repositoryUrl = process.env.NEXT_PUBLIC_REPOSITORY_URL;
+
   const copy = {
     en: {
-      copyright: `© ${year} Academic Homepage Template.`,
+      copyright: `© ${year} Dr. Chaojie Hao`,
       viewSource: "View source on GitHub",
-      lastUpdated: "Last updated:",
-      tagline: "Built for researchers"
+      today: "Today:"
     },
     zh: {
-      copyright: `© ${year} 学术主页模板。`,
+      copyright: `© ${year} Dr. Chaojie Hao`,
       viewSource: "GitHub 源码仓库",
-      lastUpdated: "上次更新：",
-      tagline: "为研究者而构建"
+      today: "今日："
     }
-  } satisfies Record<Locale, { copyright: string; viewSource: string; lastUpdated: string; tagline: string }>;
+  } satisfies Record<Locale, {
+    copyright: string;
+    viewSource: string;
+    today: string;
+  }>;
+
   const t = copy[locale];
 
   return (
@@ -45,11 +50,9 @@ export function SiteFooter({ lastUpdated, locale = "en" }: SiteFooterProps) {
             </Link>
           ) : null}
         </div>
-        <div className="flex flex-wrap items-center gap-4">
-          {lastUpdated ? <span>{t.lastUpdated} {lastUpdated}</span> : null}
-          <span className="rounded-full bg-brand/10 px-3 py-1 text-xs font-semibold text-brand dark:bg-brand/20 dark:text-brand/90">
-            {t.tagline}
-          </span>
+
+        <div>
+          <span>{t.today} {today}</span>
         </div>
       </div>
     </footer>
