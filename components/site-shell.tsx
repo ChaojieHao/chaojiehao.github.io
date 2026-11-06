@@ -214,7 +214,7 @@ export function SiteShell({ children, navItems, profile, locale, lastUpdated }: 
         </div>
         <main className="flex-1 min-w-0 space-y-16">
           {children}
-          <SiteFooter lastUpdated={lastUpdated} locale={locale} />
+          <SiteFooter locale={locale} />
         </main>
       </div>
     </div>
