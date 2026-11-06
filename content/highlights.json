@@ -12,7 +12,7 @@
           "Cluster Search",
           "Milky Way"
         ],
-        "image": "/images/research/Open%20Clusters.jpg",
+        "image": "/images/highlight/new_OC.jpg",
         "links": [
           {
             "label": "ADS",
@@ -34,7 +34,7 @@
           "Open Clusters",
           "Galactic Evolution"
         ],
-        "image": "/images/research/Milky%20Way.jpg",
+        "image": "/images/highlight/evolution_MW.jpg"
         "links": [
           {
             "label": "ADS",
@@ -60,7 +60,7 @@
           "星团搜寻",
           "银河系"
         ],
-        "image": "/images/research/Open%20Clusters.jpg",
+        "image": "/images/highlight/new_OC.jpg"
         "links": [
           {
             "label": "ADS",
@@ -82,7 +82,7 @@
           "疏散星团",
           "银河系演化"
         ],
-        "image": "/images/research/Milky%20Way.jpg",
+        "image": "/images/highlight/evolution_MW.jpg"
         "links": [
           {
             "label": "ADS",
