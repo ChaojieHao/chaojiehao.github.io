@@ -24,6 +24,7 @@ export type ProfileContent = Localized<LocaleProfile>;
 export type ResearchInterest = {
   title: string;
   description: string;
+  image: string;
 };
 
 export type ResearchExperience = {
