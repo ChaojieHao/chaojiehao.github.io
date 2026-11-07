@@ -4,20 +4,18 @@
   },
   "en": {
     "heroTitle": "Research Overview",
-    "heroDescription": "Use this page to explain your themes, methods, and ongoing work beyond the short summary on the homepage.",
+    "heroDescription": "My research focuses on the structure, dynamics, and evolution of star clusters and the Milky Way, using multi-wavelength observations.",
     "interestsTitle": "Research Interests",
     "interestsEyebrow": "Focus Areas",
-    "experienceTitle": "Research Experience",
-    "experienceEyebrow": "Experience",
-    "collaboration": "Interested in collaboration, advising, or internships? Point visitors to the Contact page."
+    "relatedLinksTitle": "Related Links",
+    "relatedLinksEyebrow": "Astronomical Databases, Surveys & Facilities"
   },
   "zh": {
     "heroTitle": "科研概览",
-    "heroDescription": "这个页面适合用来展开介绍你的研究主题、方法路线和正在推进的工作。",
+    "heroDescription": "我的研究主要关注星团和银河系的结构、动力学及演化，结合多波段观测开展相关研究。",
     "interestsTitle": "研究兴趣",
     "interestsEyebrow": "关注方向",
-    "experienceTitle": "科研经历",
-    "experienceEyebrow": "经历",
-    "collaboration": "如果希望接收合作、指导或实习咨询，可以把访客引导到联系页面。"
+    "relatedLinksTitle": "相关学术资源",
+    "relatedLinksEyebrow": "天文数据库、巡天项目与观测设施"
   }
 }
