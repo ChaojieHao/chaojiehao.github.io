@@ -2,13 +2,51 @@
 import { notFound } from "next/navigation";
 
 import { Section } from "@/components/section";
-import { Timeline } from "@/components/timeline";
 import { getResearchContent, getResearchPageCopy } from "@/lib/content";
 import { normalizeLocale } from "@/lib/locale";
 
 type PageProps = {
   params: { locale: string } | Promise<{ locale: string }>;
 };
+
+const relatedLinks = [
+  {
+    name: "ESA Gaia Science Community",
+    url: "https://www.cosmos.esa.int/web/gaia/home"
+  },
+  {
+    name: "Gaia Archive",
+    url: "https://gea.esac.esa.int/archive/"
+  },
+  {
+    name: "SIMBAD Astronomical Database",
+    url: "https://simbad.cds.unistra.fr/simbad/"
+  },
+  {
+    name: "BeSSeL Survey",
+    url: "https://science.nrao.edu/science/key-science-projects/ksp_bessel"
+  },
+  {
+    name: "SDSS Spectroscopic Search",
+    url: "https://skyserver.sdss.org/dr18/SearchTools/SQS"
+  },
+  {
+    name: "LAMOST",
+    url: "http://www.lamost.org/public/"
+  },
+  {
+    name: "SKA Observatory",
+    url: "https://www.skao.int/en"
+  },
+  {
+    name: "MWISP Data Release",
+    url: "https://doi.org/10.57760/sciencedb.27351"
+  },
+  {
+    name: "The FAST All Sky HI Survey",
+    url: "https://fast.bao.ac.cn/cms/article/271/"
+  }
+];
 
 export default async function ResearchPage({ params }: PageProps) {
   const resolvedParams = await params;
@@ -17,7 +55,7 @@ export default async function ResearchPage({ params }: PageProps) {
     notFound();
   }
 
-  const { interests, experiences } = getResearchContent()[locale];
+  const { interests } = getResearchContent()[locale];
   const t = getResearchPageCopy()[locale];
 
   return (
@@ -81,18 +119,31 @@ export default async function ResearchPage({ params }: PageProps) {
         </div>
       </Section>
 
-      <Section title={t.experienceTitle} eyebrow={t.experienceEyebrow}>
-        <Timeline
-          items={experiences.map((item) => ({
-            title: `${item.title} · ${item.role}`,
-            period: item.period,
-            location: [item.advisor, item.funding].filter(Boolean).join(" · ") || undefined,
-            details: [item.summary, ...item.bullets]
-          }))}
-        />
-        <p className="mt-6 text-base text-slate-600 dark:text-slate-300">
-          {t.collaboration}
-        </p>
+      <Section title={t.relatedLinksTitle} eyebrow={t.relatedLinksEyebrow}>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {relatedLinks.map((link, index) => (
+            <a
+              key={link.name}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white/90 px-5 py-4 transition-colors hover:border-blue-300 hover:bg-blue-50/70 dark:border-slate-800 dark:bg-slate-900/70 dark:hover:border-blue-800 dark:hover:bg-slate-800/80"
+            >
+              <span className="flex min-w-0 items-center gap-3">
+                <span className="text-xs font-semibold tabular-nums text-slate-400 dark:text-slate-500">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <span className="text-sm font-medium text-slate-800 dark:text-slate-200">
+                  {link.name}
+                </span>
+              </span>
+
+              <span className="shrink-0 text-slate-400 transition-colors group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                ↗
+              </span>
+            </a>
+          ))}
+        </div>
       </Section>
     </div>
   );
