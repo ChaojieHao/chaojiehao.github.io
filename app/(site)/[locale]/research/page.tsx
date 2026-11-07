@@ -11,10 +11,6 @@ type PageProps = {
 
 const relatedLinks = [
   {
-    name: "ESA Gaia Science Community",
-    url: "https://www.cosmos.esa.int/web/gaia/home"
-  },
-  {
     name: "Gaia Archive",
     url: "https://gea.esac.esa.int/archive/"
   },
@@ -27,8 +23,12 @@ const relatedLinks = [
     url: "https://science.nrao.edu/science/key-science-projects/ksp_bessel"
   },
   {
-    name: "SDSS Spectroscopic Search",
-    url: "https://skyserver.sdss.org/dr18/SearchTools/SQS"
+    name: "Sloan Digital Sky Survey",
+    url: "https://skyserver.sdss.org/dr18"
+  },
+  {
+    name: "APOGEE Survey",
+    url: "https://www.sdss4.org/dr17/irspec/"
   },
   {
     name: "LAMOST",
@@ -43,7 +43,7 @@ const relatedLinks = [
     url: "https://doi.org/10.57760/sciencedb.27351"
   },
   {
-    name: "The FAST All Sky HI Survey",
+    name: "FAST All Sky HI Survey",
     url: "https://fast.bao.ac.cn/cms/article/271/"
   },
   {
