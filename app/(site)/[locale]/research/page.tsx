@@ -45,6 +45,10 @@ const relatedLinks = [
   {
     name: "The FAST All Sky HI Survey",
     url: "https://fast.bao.ac.cn/cms/article/271/"
+  },
+  {
+    name: "PARSEC Stellar Isochrones",
+    url: "https://stev.oapd.inaf.it/cgi-bin/cmd"
   }
 ];
 
