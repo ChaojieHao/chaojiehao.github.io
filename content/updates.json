@@ -8,6 +8,41 @@
   "en": {
     "updates": [
       {
+        "date": "2026-11-07",
+        "type": "Commit",
+        "title": "Update related links in research page",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d64a2369cd895944c6ff5aa552711466e3fd0cd2"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "Commit",
+        "title": "Add PARSEC Stellar Isochrones to research page",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f226a4e5486bd28886979adc251b12b951716d6"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "Commit",
+        "title": "Update ResearchPage to include related links",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ef473c629704ac2fa8c17c1f6881b24634b45b09"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "Commit",
+        "title": "Update research page descriptions and related links",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/506690f782827b44694ad5b21ead89c945870baf"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "Commit",
+        "title": "Update content types to include related links",
+        "summary": "Authored by ChaojieHao",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7a277aa64a721dbbb5fdfee7e95c86472b7deac1"
+      },
+      {
         "date": "2026-11-06",
         "type": "Commit",
         "title": "Change aspect ratio from 16/9 to 16/10",
@@ -20,47 +55,47 @@
         "title": "Add files via upload",
         "summary": "Authored by ChaojieHao",
         "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7f9d1f86549aa7ffc0076ed8880fe4f349830298"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "Commit",
-        "title": "Refactor layout and improve interest section display",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f294e76a4dc57c65cd9c3e2affe1cdbf85772d7"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "Commit",
-        "title": "Add subtitle field to ResearchInterest type",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a9ecc51393104bfcc10ca37c340ad52e8eb8069"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "Commit",
-        "title": "Revise research interests structure and content",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/65694fa7a48d47ced8c59c6f68617dbede4c56e0"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "Commit",
-        "title": "Remove lastUpdated prop from SiteFooter",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/61a2608087d5ee49be11aa3af2eedbc865099cdb"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "Commit",
-        "title": "Update SiteFooter to display today's date",
-        "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e0886e4267af7db6b75a2b72cb43618444b7ce18"
       }
     ]
   },
   "zh": {
     "updates": [
       {
+        "date": "2026-11-07",
+        "type": "提交",
+        "title": "Update related links in research page",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d64a2369cd895944c6ff5aa552711466e3fd0cd2"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "提交",
+        "title": "Add PARSEC Stellar Isochrones to research page",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f226a4e5486bd28886979adc251b12b951716d6"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "提交",
+        "title": "Update ResearchPage to include related links",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ef473c629704ac2fa8c17c1f6881b24634b45b09"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "提交",
+        "title": "Update research page descriptions and related links",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/506690f782827b44694ad5b21ead89c945870baf"
+      },
+      {
+        "date": "2026-11-07",
+        "type": "提交",
+        "title": "Update content types to include related links",
+        "summary": "由 ChaojieHao 提交",
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7a277aa64a721dbbb5fdfee7e95c86472b7deac1"
+      },
+      {
         "date": "2026-11-06",
         "type": "提交",
         "title": "Change aspect ratio from 16/9 to 16/10",
@@ -73,41 +108,6 @@
         "title": "Add files via upload",
         "summary": "由 ChaojieHao 提交",
         "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7f9d1f86549aa7ffc0076ed8880fe4f349830298"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "提交",
-        "title": "Refactor layout and improve interest section display",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f294e76a4dc57c65cd9c3e2affe1cdbf85772d7"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "提交",
-        "title": "Add subtitle field to ResearchInterest type",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/0a9ecc51393104bfcc10ca37c340ad52e8eb8069"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "提交",
-        "title": "Revise research interests structure and content",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/65694fa7a48d47ced8c59c6f68617dbede4c56e0"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "提交",
-        "title": "Remove lastUpdated prop from SiteFooter",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/61a2608087d5ee49be11aa3af2eedbc865099cdb"
-      },
-      {
-        "date": "2026-11-06",
-        "type": "提交",
-        "title": "Update SiteFooter to display today's date",
-        "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/e0886e4267af7db6b75a2b72cb43618444b7ce18"
       }
     ]
   }
