@@ -194,9 +194,8 @@ export type ResearchPageCopy = Localized<{
   heroDescription: string;
   interestsTitle: string;
   interestsEyebrow: string;
-  experienceTitle: string;
-  experienceEyebrow: string;
-  collaboration: string;
+  relatedLinksTitle: string;
+  relatedLinksEyebrow: string;
 }>;
 
 export type ProjectsPageCopy = Localized<{
