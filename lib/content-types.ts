@@ -77,6 +77,7 @@ export type HighlightEntry = {
   year: string;
   title: string;
   summary: string;
+  description: string;
   keywords: string[];
   image: string;
   links?: {
