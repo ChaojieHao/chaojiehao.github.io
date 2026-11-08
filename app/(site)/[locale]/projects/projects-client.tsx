@@ -42,7 +42,7 @@ export function ProjectsClient({
                 className="grid gap-5 overflow-hidden rounded-2xl border border-slate-200 bg-white/70 p-4 dark:border-slate-700 dark:bg-slate-900/40 md:grid-cols-[240px_minmax(0,1fr)] md:gap-7"
               >
                 {/* Left: image */}
-                <div className="relative aspect-[5/4] w-full overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800">
+                <div className="relative aspect-[8/7] w-full overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800">
                   <Image
                     src={item.image}
                     alt={item.title}
