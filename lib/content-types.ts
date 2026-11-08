@@ -202,26 +202,9 @@ export type ResearchPageCopy = Localized<{
 export type ProjectsPageCopy = Localized<{
   heroTitle: string;
   heroDescription: string;
-  filters: {
-    year: string;
-    label: string;
-    all: string;
-    ongoing: string;
-    featured: string;
-  };
-  badges: {
-    ongoing: string;
-    featured: string;
-  };
+  highlightsTitle: string;
+  highlightsEyebrow: string;
   empty: string;
-  sections: {
-    updates: { title: string; eyebrow: string };
-  };
-  groupLabels: {
-    academic: string;
-    "open-source": string;
-    default: string;
-  };
 }>;
 
 export type PublicationsPageCopy = Localized<{
