@@ -6,6 +6,7 @@
         "year": "2022",
         "title": "Newly detected open clusters in the Galactic disk using Gaia EDR3",
         "summary": "We conducted a blind search for open clusters in the Galactic disk using Gaia EDR3 and identified 704 new candidate open clusters, providing an expanded sample for studying the stellar populations and structure of the Milky Way.",
+        "description": "The astrometric satellite Gaia recently released part of its third data set, providing an excellent opportunity to search for additional open clusters in the Milky Way. In this work, we conducted a blind search for open clusters in the Galactic disk using a sample-based clustering search method with high spatial resolution, which is particularly effective at identifying previously hidden targets. In addition to recovering 1,930 previously known open clusters and 82 known globular clusters, we identified 704 new stellar clusters as candidate open clusters at Galactic latitudes |b| ≤ 20°. For each new candidate, we present its coordinates, detailed astrometric parameters, and age, as well as its radial velocity when available. This blind search substantially expands the sample of Galactic open clusters available for study and demonstrates that the census of open clusters across the Milky Way remains incomplete.",
         "keywords": [
           "Open Clusters",
           "Gaia EDR3",
@@ -28,6 +29,7 @@
         "year": "2021",
         "title": "Evolution of the local spiral structure of the Milky Way revealed by open clusters",
         "summary": "Using a catalogue of 3,794 open clusters based on Gaia EDR3, we investigated the nearby spiral structure and its evolution. Our results suggest that the local spiral pattern has remained approximately stable over the past 80 million years, with the Local Arm likely being a long-lived major arm segment.",
+        "description": "The structure and evolution of the spiral arms of the Milky Way are fundamental but long-standing questions in astronomy. In particular, the lifetime of spiral arms remains uncertain and has not been well constrained by observations. In this work, we investigated these questions using a large catalogue of open clusters. We compiled a catalogue of 3,794 open clusters based on Gaia EDR3, most of which have accurately determined parallaxes, proper motions, and radial velocities. We collected age estimates for these clusters from the literature or determined them in this work. To investigate the nearby spiral structure and its evolution, we analysed the spatial distributions, kinematic properties, vertical distributions, and regression properties of different open-cluster subsamples. Our results suggest that the nearby spiral arms are consistent with a long-lived spiral pattern and may have remained approximately stable over the past 80 million years. In particular, the Local Arm, where the Sun is currently located, also appears to be long-lived and may constitute a major spiral-arm segment of the Milky Way. The inferred evolutionary characteristics of the nearby spiral arms suggest that the dynamic spiral mechanism may not be prevalent in our Galaxy. Instead, the density wave theory provides a better match to the observational properties of open clusters.",
         "keywords": [
           "Milky Way",
           "Spiral Structure",
@@ -54,6 +56,7 @@
         "year": "2022",
         "title": "利用 Gaia EDR3 在银河系盘中发现新的疏散星团",
         "summary": "基于 Gaia EDR3 数据，我们对银河系盘开展了疏散星团盲搜，发现了 704 个新的候选疏散星团，为研究银河系的恒星族群和结构提供了更大规模的样本。",
+        "description": "天体测量卫星 Gaia 近期发布了第三次数据集的部分数据，为搜寻银河系中的更多疏散星团提供了良好机会。在这项工作中，我们采用一种具有较高空间分辨率的基于样本的聚类搜寻方法，对银河系盘中的疏散星团开展了盲搜。该方法尤其适合发现此前尚未识别的隐匿目标。除了确认 1930 个已知疏散星团和 82 个已知球状星团外，我们还在银纬 |b| ≤ 20° 的范围内提出了 704 个新的恒星团候选体，并将其列为潜在的疏散星团。对于每个新发现的候选星团，我们给出了其坐标、详细的天体测量参数和年龄，并在数据可用时提供其视向速度。这项盲搜显著扩充了可用于研究的银河系疏散星团样本，同时也表明，目前银河系疏散星团的普查仍不完整。",
         "keywords": [
           "疏散星团",
           "Gaia EDR3",
@@ -76,6 +79,7 @@
         "year": "2021",
         "title": "利用疏散星团揭示银河系太阳邻域旋臂结构的演化",
         "summary": "基于 Gaia EDR3 构建的 3794 个疏散星团样本，我们研究了太阳邻域旋臂结构及其演化。结果表明，附近的旋臂结构在过去约 8000 万年内可能保持相对稳定，且本地臂可能是银河系中一个长期存在的主要旋臂段。",
+        "description": "银河系旋臂的结构与演化是天文学中基础而又长期悬而未决的问题。其中，旋臂的寿命仍然是一个谜，尚缺乏观测上的有力约束。在这项工作中，我们利用大规模疏散星团目录对这些问题进行了研究。我们基于 Gaia EDR3 编制了一个包含 3794 个疏散星团的目录，其中大多数星团具有精确测定的视差、自行和视向速度。我们从文献中收集了这些星团的年龄参数，或在本工作中对其进行了计算。为了理解太阳邻域的旋臂结构及其演化，我们分析了不同疏散星团子样本的空间分布、运动学性质、垂直分布以及回归分析结果。研究发现，附近的旋臂结构与一种长寿命的旋臂图样相符，并且在过去约 8000 万年里可能保持了相对稳定。特别是，太阳目前所在的本地臂也可能具有较长的寿命，并且很可能是银河系中的一个主要旋臂段。附近旋臂的演化特征表明，动力学旋臂机制可能并非银河系中普遍存在的主导机制。相比之下，密度波理论与疏散星团所呈现的观测性质更加吻合。",
         "keywords": [
           "银河系",
           "旋臂结构",
@@ -97,4 +101,3 @@
     ]
   }
 }
-
