@@ -8,106 +8,106 @@
   "en": {
     "updates": [
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "Commit",
-        "title": "Update related links in research page",
+        "title": "Implement filtering for project highlights",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d64a2369cd895944c6ff5aa552711466e3fd0cd2"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/f30fe84225a4ff9633c4bb9537370ef3ecc64b67"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "Commit",
-        "title": "Add PARSEC Stellar Isochrones to research page",
+        "title": "Change aspect ratio of image container",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f226a4e5486bd28886979adc251b12b951716d6"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/04a2c30feabc10634bc3c86b42162915274c9242"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "Commit",
-        "title": "Update ResearchPage to include related links",
+        "title": "Update image container aspect ratio",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ef473c629704ac2fa8c17c1f6881b24634b45b09"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/21cf8d8d8a5f39cb68a8d3e2bfaade0cd8907e81"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "Commit",
-        "title": "Update research page descriptions and related links",
+        "title": "Refactor ProjectsClient component and remove unused code",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/506690f782827b44694ad5b21ead89c945870baf"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/fd29cbe803500f710f16d4a55246f81dca277ca5"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "Commit",
-        "title": "Update content types to include related links",
+        "title": "Update Projects page to Highlights page content",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7a277aa64a721dbbb5fdfee7e95c86472b7deac1"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/58d0b4ab4eeba3c0f0b816ec0d11c71b08c8b3be"
       },
       {
-        "date": "2026-11-06",
+        "date": "2026-11-08",
         "type": "Commit",
-        "title": "Change aspect ratio from 16/9 to 16/10",
+        "title": "Refactor ProjectsPageCopy type by removing filters and sections",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/90a37fa525c8028c41878df2a58db9161acb2d4b"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/35442e97062895a203dcb423f226da901d3b9661"
       },
       {
-        "date": "2026-11-06",
+        "date": "2026-11-08",
         "type": "Commit",
-        "title": "Add files via upload",
+        "title": "Refactor ProjectsPage to use highlights instead of updates",
         "summary": "Authored by ChaojieHao",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7f9d1f86549aa7ffc0076ed8880fe4f349830298"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/3c5ff9da3fe30b1a6842f0e4f99cb1283700c8ce"
       }
     ]
   },
   "zh": {
     "updates": [
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "提交",
-        "title": "Update related links in research page",
+        "title": "Implement filtering for project highlights",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/d64a2369cd895944c6ff5aa552711466e3fd0cd2"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/f30fe84225a4ff9633c4bb9537370ef3ecc64b67"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "提交",
-        "title": "Add PARSEC Stellar Isochrones to research page",
+        "title": "Change aspect ratio of image container",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/6f226a4e5486bd28886979adc251b12b951716d6"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/04a2c30feabc10634bc3c86b42162915274c9242"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "提交",
-        "title": "Update ResearchPage to include related links",
+        "title": "Update image container aspect ratio",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/ef473c629704ac2fa8c17c1f6881b24634b45b09"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/21cf8d8d8a5f39cb68a8d3e2bfaade0cd8907e81"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "提交",
-        "title": "Update research page descriptions and related links",
+        "title": "Refactor ProjectsClient component and remove unused code",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/506690f782827b44694ad5b21ead89c945870baf"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/fd29cbe803500f710f16d4a55246f81dca277ca5"
       },
       {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "type": "提交",
-        "title": "Update content types to include related links",
+        "title": "Update Projects page to Highlights page content",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7a277aa64a721dbbb5fdfee7e95c86472b7deac1"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/58d0b4ab4eeba3c0f0b816ec0d11c71b08c8b3be"
       },
       {
-        "date": "2026-11-06",
+        "date": "2026-11-08",
         "type": "提交",
-        "title": "Change aspect ratio from 16/9 to 16/10",
+        "title": "Refactor ProjectsPageCopy type by removing filters and sections",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/90a37fa525c8028c41878df2a58db9161acb2d4b"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/35442e97062895a203dcb423f226da901d3b9661"
       },
       {
-        "date": "2026-11-06",
+        "date": "2026-11-08",
         "type": "提交",
-        "title": "Add files via upload",
+        "title": "Refactor ProjectsPage to use highlights instead of updates",
         "summary": "由 ChaojieHao 提交",
-        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/7f9d1f86549aa7ffc0076ed8880fe4f349830298"
+        "link": "https://github.com/ChaojieHao/chaojiehao.github.io/commit/3c5ff9da3fe30b1a6842f0e4f99cb1283700c8ce"
       }
     ]
   }
